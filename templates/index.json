@@ -32,9 +32,13 @@
         "template--20701774938135__e1f22dd9-00b9-42b0-9e3a-01ae1181f502-button-1"
       ],
       "settings": {
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/How to Use Biggest Bubble Gun Machine 2021_21dc1d75-2705-4cb6-ab2f-3c7fc0f7972d.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "enable_image": false,
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
