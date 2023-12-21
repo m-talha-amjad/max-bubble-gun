@@ -70,8 +70,8 @@ Dawn 11.0
       <h2 class="title inline-richtext {{ section.settings.heading_size }}">
         {{ section.settings.title }}
       </h2>
-      {% if section.settings.subheading != blank %}
-        {{ section.settings.subheading }}
+      {% if section.settings.subtitle != blank %}
+        {{ section.settings.subtitle }}
       {% endif %}
     </div>
   {%- endunless -%}
@@ -117,9 +117,9 @@ Dawn 11.0
     },
     {
       "type": "richtext",
-      "label": "Subheading",
-      "id": "subheading",
-      "default": "<p>Any detail about section can be added.</p>"
+      "label": "subtitle",
+      "id": "subtitle",
+      "default": "<p>Give customers details about the section.</p>"
     },
     {
       "type": "select",
