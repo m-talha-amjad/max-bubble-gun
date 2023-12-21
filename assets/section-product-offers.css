@@ -108,6 +108,7 @@ offer-product-selection {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 9;
   width: 100%;
   display: flex;
   justify-content: center;
