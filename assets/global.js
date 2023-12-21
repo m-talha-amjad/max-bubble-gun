@@ -1521,7 +1521,6 @@ customElements.define("product-recommendations", ProductRecommendations);
 class OfferProductSelection extends HTMLElement {
   constructor() {
     super();
-    console.log("OfferProductSelection");
     this.variant_option = this.querySelectorAll(".variant-option");
     this.variant_option.forEach((option) => {
       option.addEventListener("click", this.onInputChange.bind(this));
@@ -1540,7 +1539,6 @@ class OfferProductSelection extends HTMLElement {
   }
 
   getSelectedVariant() {
-    this.variantsData();
     const selectedVariant = this.querySelector(
       ".variant-option[aria-pressed='true']"
     );
@@ -1562,7 +1560,6 @@ class ProductOffers extends HTMLElement {
     super();
     this.selection_wrap = this.querySelector("[selection-wrap]");
     this.products = this.querySelectorAll("offer-product");
-    console.log(this.products);
     this.products.forEach((product) => {
       product.addEventListener("click", this.onProductClick.bind(this));
     });
@@ -1570,7 +1567,6 @@ class ProductOffers extends HTMLElement {
   onProductClick(event) {
     event.preventDefault();
     const target = event.target;
-    console.log(target);
     if (target.nodeName == "OFFER-PRODUCT")
       this.selection_wrap.innerHTML = this.get_html(target);
   }
