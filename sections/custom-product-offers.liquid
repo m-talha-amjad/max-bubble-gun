@@ -47,7 +47,7 @@
           {% endcase %}
         {% endfor %}
       </div>
-      <div class="product-offers__selection">
+      <div class="product-offers__selection" hidden>
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'product_offer' %}
