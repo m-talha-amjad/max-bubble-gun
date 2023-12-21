@@ -28,7 +28,7 @@
       </div>
     {%- endunless -%}
     <product-offers class="product-offers__products">
-      <div class="product-offers__products-list grid product-grid grid--1-col-tablet-down
+      <div class="product-offers__products-list grid grid--1-col-tablet-down
       grid--3-col-desktop">
         {% for block in section.blocks %}
           {% case block.type %}
@@ -46,7 +46,29 @@
               </offer-product>
           {% endcase %}
         {% endfor %}
-
+      </div>
+      <div class="product-offers__selection">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'product_offer' %}
+              {% assign offer_product = block.settings.product %}
+              <offer-product-selection id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
+                
+                  <div class="variant-images">
+                    {% for variant in offer_product %}
+                    <img id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600  }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
+                  {% endfor %}
+                  </div>
+                  <div class="variants-list">
+                    {% for variant in offer_product %}
+                      <div class="variant-option">
+                        <span class="variant-option__label">{{ variant.option1.value }}</span>
+                      </div>
+                    {% endfor %}
+                  </div>
+              </offer-product-selection>
+          {% endcase %}
+        {% endfor %}
       </div>
     </product-offers>
   </div>
