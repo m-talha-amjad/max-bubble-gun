@@ -54,6 +54,8 @@ offer-product *{
   width: 100%;
   margin: 0 -10px;
   padding: 9px;
+  min-height: 40px;
+  margin-bottom: 10px;
 }
 .offer-product__title { 
   grid-row: 2/3;
