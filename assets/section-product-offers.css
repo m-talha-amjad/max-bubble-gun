@@ -1,0 +1,31 @@
+.product-offers .title {
+  margin: 0;
+}
+
+.product-offers.no-heading .title {
+  display: none;
+}
+
+.product-offers .title-wrapper-with-link {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .product-offers .title-wrapper-with-link {
+    margin-bottom: 3rem;
+  }
+
+  /* .product-offers .page-width {
+    padding-left: 0;
+    padding-right: 0;
+  } */
+}
+
+
+
+.product-offers__products-list {
+  display: flex;
+}
+.offer-product {
+  flex: 1 1 auto;
+}
