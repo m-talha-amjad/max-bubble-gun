@@ -1540,7 +1540,7 @@ class ProductOffers extends HTMLElement {
   }
 
   get_html(target) {
-    const html = target.querySelector("[html]").innerHTML;
+    const html = target.querySelector("div[html]").innerHTML;
     return `<offer-product-selection>${html}</offer-product-selection>`;
   }
 }
