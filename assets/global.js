@@ -1524,7 +1524,7 @@ class OfferProductSelection extends HTMLElement {
     console.log("OfferProductSelection");
     this.variant_option = this.querySelectorAll(".variant-option");
     this.variant_option.forEach((option) => {
-      option.addEventListener("change", this.onInputChange.bind(this));
+      option.addEventListener("click", this.onInputChange.bind(this));
     });
   }
   onInputChange(event) {
