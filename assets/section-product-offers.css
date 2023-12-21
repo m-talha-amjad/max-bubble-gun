@@ -111,6 +111,8 @@ offer-product-selection {
   width: 100%;
   display: flex;
   justify-content: center;
+  background: #fff;
+  padding: 20px;
 }
 
 
