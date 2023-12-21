@@ -1529,7 +1529,6 @@ class OfferProductSelection extends HTMLElement {
   connectedCallback() {
     this.selectedVariant();
     this.updateMedia();
-    console.log(this.currentVariant);
   }
   onInputChange(event) {
     event.preventDefault();
