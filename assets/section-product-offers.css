@@ -39,6 +39,13 @@
 }
 
 
+offer-product-selection {
+  display: grid;
+  justify-content: center;
+}
+.variant-images {
+  max-width: fit-content;
+}
 .variant-images img {
   max-height: 200px;
   max-width: 100%;
