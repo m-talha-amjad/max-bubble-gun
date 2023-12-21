@@ -1677,6 +1677,7 @@ class OfferProductTotal extends HTMLElement {
   }
   handleChange(event) {
     this.currentVariant = event.detail.variant;
+    console.log(this.currentVariant);
     this.updateTotal(this.currentVariant.price);
   }
   updateTotal(price) {
