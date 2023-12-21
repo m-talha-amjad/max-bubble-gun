@@ -1631,7 +1631,7 @@ class OfferProductSelection extends HTMLElement {
   dispatchEvent() {
     document.dispatchEvent(
       new CustomEvent("offer-product-change", {
-        details: { variant: this.currentVariant },
+        detail: { variant: this.currentVariant },
       })
     );
   }
@@ -1676,7 +1676,7 @@ class OfferProductTotal extends HTMLElement {
     );
   }
   handleChange(event) {
-    console.log(event);
+    console.log(event.detail);
     // this.updateTotal(price);
   }
   updateTotal(price) {
