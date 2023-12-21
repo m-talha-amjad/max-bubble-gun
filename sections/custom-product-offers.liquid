@@ -51,7 +51,7 @@
                   <div html hidden>
                       <div class="variant-images">
                         {% for variant in offer_product.variants %}
-                        <img data-media-id="{{ variant.featured_media.id }}" {% unless  current_variant.id == variant.id %} hidden {% endunless %}  id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600  }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
+                        <img data-media-id="{{ variant.featured_media.id }}" {% unless  current_variant.id == variant.id %} hidden {% endunless %}  id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600 }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
                       {% endfor %}
                       </div>
                       <div class="variants-list">
