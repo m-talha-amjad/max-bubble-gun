@@ -1525,7 +1525,7 @@ class OfferProductSelection extends HTMLElement {
     this.variant_option = this.querySelectorAll(".variant-option");
     this.variant_option.forEach((option) => {
       option.addEventListener("change", this.onInputChange.bind(this));
-    }
+    });
   }
   onInputChange(event) {
     event.preventDefault();
