@@ -1543,7 +1543,10 @@ class OfferProductSelection extends HTMLElement {
       ".variant-option[aria-pressed='true']"
     );
     const varinatId = selectedVariant.dataset.value;
-    console.log(varinatId);
+    this.currentVariant = this.getVariantsData().find(
+      (variant) => variant.id == varinatId
+    );
+    console.log(this.currentVariant);
   }
 
   getVariantsData() {
