@@ -1,5 +1,5 @@
 .product-offers {
-  padding: 20px 25px 25px;
+  padding: 0;
 }
 .product-offers .title {
   margin: 0;
@@ -25,7 +25,9 @@
 
 
 /* #region product-offers */
-
+.product-offers__products-list {
+  padding: 20px 25px 25px;
+}
 offer-product *{
   pointer-events: none;
 }
@@ -45,7 +47,11 @@ offer-product *{
   padding: 9px;
 }
 
+.offer-product__subtitle {
+  font-size: 22px;
+  font-weight: bold;
 
+}
 
 
 
