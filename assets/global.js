@@ -1544,6 +1544,7 @@ class ProductOffers extends HTMLElement {
     });
   }
   onProductClick(event) {
+    event.preventDefault();
     const target = event.target;
     console.log(target);
     if (target.nodeName == "OFFER-PRODUCT")
