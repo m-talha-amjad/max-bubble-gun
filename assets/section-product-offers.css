@@ -60,7 +60,13 @@ offer-product-selection {
 .variants-list {
   display: flex;
 }
-
+.variant-option {
+  min-width: 100px;
+  cursor: pointer;
+}
+.variant-option * {
+  pointer-events: none;
+}
 .offer-product:first-child img {
   max-width: 200px;
 }
