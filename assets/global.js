@@ -1526,6 +1526,11 @@ class OfferProductSelection extends HTMLElement {
       option.addEventListener("click", this.onInputChange.bind(this));
     });
   }
+  connectedCallback() {
+    this.selectedVariant();
+    this.updateMedia();
+    console.log(this.currentVariant);
+  }
   onInputChange(event) {
     event.preventDefault();
     const target = event.target;
