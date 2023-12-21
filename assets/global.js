@@ -1535,7 +1535,7 @@ class ProductOffers extends HTMLElement {
     });
   }
   onProductClick(event) {
-    const product = event.target;
+    const target = event.target;
   }
 }
 customElements.define("product-offers", ProductOffers);
