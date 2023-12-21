@@ -84,6 +84,9 @@ offer-product-selection {
 .variant-option.pink .swatch {
   background-color: rgb(255, 147, 177);
 }
+.variant-option.variety .swatch {
+  background: linear-gradient(to right, #00d4ff 0%, #00d4ff 50%, #ff93b1 50%, #ff93b1 100%);;
+}
 .offer-product:first-child img {
   max-width: 200px;
 }
