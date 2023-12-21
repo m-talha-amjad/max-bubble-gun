@@ -3522,6 +3522,13 @@ details-disclosure > details {
 
 /* #endregion Custom Overrides End*/
 /* #region Custom */
+
+.section-header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
 #MainContent {
   width: 100%;
   max-width: 1200px;
