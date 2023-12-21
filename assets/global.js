@@ -1536,6 +1536,7 @@ class ProductOffers extends HTMLElement {
   }
   onProductClick(event) {
     const target = event.target;
+    this.selection_wrap = target.querySelector("[html]");
   }
 }
 customElements.define("product-offers", ProductOffers);
