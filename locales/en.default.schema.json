@@ -3537,6 +3537,9 @@
         "product_offer": {
           "name": "Product Offer",
           "settings": {
+            "link_label": {
+              "label": "Link label"
+            },
             "link": {
               "label": "Link"
             }
