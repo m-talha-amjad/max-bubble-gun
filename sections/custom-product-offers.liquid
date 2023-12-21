@@ -52,10 +52,18 @@
                   </div>
                   <div class="variants-list">
                     {% for variant in offer_product.variants %}
+                       {%-liquid  
+                         assign pressed = false
+                          if current_variant.id == variant.id
+                            assign pressed = true
+                          endif
+                       %}
                       <div class="variant-option-wrap">
-                        <span class="variant-name">{{ variant.title }}</span>
-                         <input type="radio" name="variant-{{ offer_product.id }}" id="variant-{{ variant.id }}-{{ forloop.index }}" value="{{ variant.id }}" {% if current_variant.id == variant.id %} checked {% endif %} >
-                        <label for="variant-{{ variant.id }}-{{ forloop.index }}" class="variant-option__label">{{ variant.title }}</label>
+                        <span class="variant-name"  >{{ variant.title }}</span>
+                        <div data-value="{{variant.id}}"  role="button" aria-pressed="pressed" >
+                          {{ variant.title}}
+                        </div>
+                         
 
                       </div> 
                     {% endfor %}
