@@ -63,6 +63,7 @@ offer-product-selection {
 .variant-option {
   min-width: 100px;
   cursor: pointer;
+  text-align: center;
 }
 .variant-option * {
   pointer-events: none;
