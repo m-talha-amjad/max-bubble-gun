@@ -39,6 +39,12 @@
 }
 
 
+.variant-images img {
+  max-height: 200px;
+  max-width: 100%;
+  width: 100%;
+}
+
 .variant-name {
   display: none;
 }
