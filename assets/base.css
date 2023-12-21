@@ -3522,7 +3522,9 @@ details-disclosure > details {
 
 /* #endregion Custom Overrides End*/
 /* #region Custom */
-
+body.gradient {
+  background-color: #333;
+}
 .section-header {
   width: 100%;
   max-width: 1200px;
