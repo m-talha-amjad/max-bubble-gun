@@ -61,9 +61,12 @@ offer-product-selection {
   display: flex;
   justify-content: center;
 }
-.variants-list {
-  display: flex;
-  justify-content: center;
+.variant-option {
+  min-width: 100px;
+  cursor: pointer;
+  text-align: center;
+  display: grid;
+  gap: 10px;
 }
 .variant-option * {
   pointer-events: none;
