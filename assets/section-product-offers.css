@@ -29,9 +29,6 @@
 
 
 
-.offer-product ~ .offer-product {
-  display: none;
-}
 .variant-images img ~ img {
   display: none;
 }
