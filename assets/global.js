@@ -1522,15 +1522,17 @@ class OfferProductSelection extends HTMLElement {
   constructor() {
     super();
     console.log("OfferProductSelection");
-    this.inputs = this.querySelectorAll("input");
-    this.inputs.forEach((input) =>
-      input.addEventListener("change", this.onInputChange.bind(this))
-    );
+    this.variant_option = this.querySelectorAll(".variant-option");
+    this.variant_option.forEach((option) => {
+      option.addEventListener("change", this.onInputChange.bind(this));
+    }
   }
   onInputChange(event) {
     event.preventDefault();
-    const varinatId = [...this.inputs].find((input) => input.checked).value;
-    console.log(varinatId);
+    const target = event.target;
+    target.setAttribute("aria-pressed", true);
+    // const varinatId = [...this.variant_option].find((option) => input.checked).value;
+    // console.log(varinatId);
   }
 }
 customElements.define("offer-product-selection", OfferProductSelection);
