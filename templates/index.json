@@ -49,9 +49,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a": {
+      "type": "custom-product-offers",
+      "blocks": {
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-1": {
+          "type": "product_offer",
+          "settings": {
+            "product": "1-max-bubble-gun",
+            "title": "product_offer",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-2": {
+          "type": "product_offer",
+          "settings": {
+            "product": "3-max-bubble-guns",
+            "title": "product_offer",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3": {
+          "type": "product_offer",
+          "settings": {
+            "product": "5-max-bubble-guns",
+            "title": "product_offer",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-1",
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-2",
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3"
+      ],
+      "settings": {
+        "title": "Heading",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "e1f22dd9-00b9-42b0-9e3a-01ae1181f502"
+    "e1f22dd9-00b9-42b0-9e3a-01ae1181f502",
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
   ]
 }
