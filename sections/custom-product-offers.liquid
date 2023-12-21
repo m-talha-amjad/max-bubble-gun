@@ -61,10 +61,10 @@
                   <div class="variants-list">
                     {% for variant in offer_product.variants %}
                       <div class="variant-option">
-                        <span class="variant-option__label">{{ offer_product.variant.title }}</span>
+                        <span class="variant-option__label">{{ variant.title }}</span>
                       </div>
                     {% endfor %}
-                  </div>{{ product.selected_or_first_available_variant.option1.value }}
+                  </div>
               </offer-product-selection>
           {% endcase %}
         {% endfor %}
