@@ -1,3 +1,6 @@
+.product-offers {
+  padding: 20px 25px 25px;
+}
 .product-offers .title {
   margin: 0;
 }
@@ -11,13 +14,11 @@
 }
 
 @media screen and (max-width: 749px) {
+  .product-offers {
+    padding: 20px 25px 25px;
+  }
   .product-offers .title-wrapper-with-link {
     margin-bottom: 3rem;
   }
-
-  /* .product-offers .page-width {
-    padding-left: 0;
-    padding-right: 0;
-  } */
 }
 
