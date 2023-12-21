@@ -92,6 +92,7 @@ offer-product-selection {
 }
 .variant-option .swatch svg {
   display: none;
+  margin: 15px;
 }
 .variant-option[aria-pressed="true"] .swatch svg {
   display: block;
