@@ -33,8 +33,13 @@
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'product_offer' %}
+              {% assign offer_product = block.settings.product %}
               <offer-product class="offer-product grid__item">
-                <div class="product-offers-title">{{ block.settings.product.title }}</div>
+                <div class="product-offers-title">{{ offer_product.title }}</div>
+                <div class="product-offers-featured-image">
+                  <img src="{{ offer_product.featured_image |  image_url: width: 200  }}" loading="lazy" width="150" height="auto" alt="{{ offer_product.featured_image.alt }}">
+                  </div>
+
               </offer-product>
           {% endcase %}
         {% endfor %}
