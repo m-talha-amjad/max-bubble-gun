@@ -69,25 +69,25 @@
           {% endcase %}
         {% endfor %}
       </div>
-      <offer-product-total class="fixed-bar-bottom">
-        <span class="total-price">Total: <span class="price-value">$81.00</span></span>
-        <button
-            type="submit"
-            id="CartDrawer-Checkout"
-            class="cart__checkout-button button"
-            name="checkout"
-            form="CartDrawer-Form"
-            {% if cart == empty %}
-              disabled
-            {% endif %}
-          >
-            {{ 'sections.cart.checkout' | t }}
-          </button>
-      </offer-product-total>
+
     </product-offers>
   </div>
 </div>
-
+<offer-product-total class="fixed-bar-bottom">
+  <span class="total-price">Total: <span class="price-value">$81.00</span></span>
+  <button
+      type="submit"
+      id="CartDrawer-Checkout"
+      class="cart__checkout-button button"
+      name="checkout"
+      form="CartDrawer-Form"
+      {% if cart == empty %}
+        disabled
+      {% endif %}
+    >
+      {{ 'sections.cart.checkout' | t }}
+    </button>
+</offer-product-total>
 {% schema %}
 {
   "name": "t:sections.product_offers.name",
