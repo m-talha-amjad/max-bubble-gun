@@ -49,33 +49,35 @@
                 <div class="offer-product-price">
                   <span class="compare-price">{{ offer_product.compare_at_price | money }}</span>
                   <span class="current-price">{{ offer_product.price | money }}</span>
-                  </div>
-                  <div html hidden>
-                      <div class="variant-images">
-                        {% for variant in offer_product.variants %}
-                        <img data-media-id="{{ variant.featured_media.id }}" {% unless  current_variant.id == variant.id %} hidden {% endunless %}  id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600 }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
+                  {% assign price_saved = offer_product.compare_at_price | minus: offer_product.price %}
+                  <span class="price-saved">{{ price_saved | money }}</span>
+                </div>
+                <div html hidden>
+                    <div class="variant-images">
+                      {% for variant in offer_product.variants %}
+                      <img data-media-id="{{ variant.featured_media.id }}" {% unless  current_variant.id == variant.id %} hidden {% endunless %}  id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600 }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
+                    {% endfor %}
+                    </div>
+                    <div class="variants-list">
+                      {% for variant in offer_product.variants %}
+                        {%-liquid  
+                          assign pressed = false
+                            if current_variant.id == variant.id
+                              assign pressed = true
+                            endif
+                        %}
+                        <div class="variant-option {{ variant.title | downcase }}" data-value="{{ variant.id }}"  role="button" aria-pressed="{{ pressed }}" >
+                          <span class="variant-option__title">{{ variant.title }}</span>
+                          <span class="variant-option__swatch">
+                            {% render 'icon-checked' %}
+                          </span>
+                        </div>
                       {% endfor %}
-                      </div>
-                      <div class="variants-list">
-                        {% for variant in offer_product.variants %}
-                          {%-liquid  
-                            assign pressed = false
-                              if current_variant.id == variant.id
-                                assign pressed = true
-                              endif
-                          %}
-                          <div class="variant-option {{ variant.title | downcase }}" data-value="{{ variant.id }}"  role="button" aria-pressed="{{ pressed }}" >
-                            <span class="variant-option__title">{{ variant.title }}</span>
-                            <span class="variant-option__swatch">
-                              {% render 'icon-checked' %}
-                            </span>
-                          </div>
-                        {% endfor %}
-                      </div>
-                      <script id="product_json" type="application/json">
-                         {{ offer_product.variants | json }}
-                      </script>
-                  </div>
+                    </div>
+                    <script id="product_json" type="application/json">
+                        {{ offer_product.variants | json }}
+                    </script>
+                </div>
               </offer-product>
           {% endcase %}
         {% endfor %}
