@@ -3515,12 +3515,30 @@ details-disclosure > details {
 
 /* == M Talha Amjad ==Start== */
 /* ========================== */
+
+/* #region base extension */
+.title-wrapper-align-center {
+  text-align: center;
+}
+.title-wrapper-align-right {
+  text-align: right;
+}
+
+/* #endregion base extension */
+
+
+
 /* #region Overrides */
 
 /* #endregion Overrides End*/
+
+
 /* #region Custom Overrides */
 
 /* #endregion Custom Overrides End*/
+
+
+
 /* #region Custom */
 body.gradient {
   background-color: #333;
