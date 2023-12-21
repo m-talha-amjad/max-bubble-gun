@@ -60,7 +60,7 @@
                   </div>
                   <div class="variants-list">
                     {% for variant in offer_product.variants %}
-                      <div class="variant-option">
+                      <div class="variant-option" id="{{ variant.id }}">
                         <span class="variant-option__label">{{ variant.title }}</span>
                       </div>
                     {% endfor %}
