@@ -39,6 +39,15 @@ offer-product *{
 .offer-product[selected] {
   box-shadow: 0 7px 9px 0 rgba(0,0,0,.05),0 0 0 1px #848484;
 }
+.offer-product__label {
+  background-color: var(--offer-label-color);
+  margin: 0 -10px;
+  padding: 9px;
+}
+
+
+
+
 
 
 offer-product-selection {
