@@ -1539,7 +1539,7 @@ class ProductOffers extends HTMLElement {
   constructor() {
     super();
     this.selection_wrap = this.querySelector("[selection-wrap]");
-    this.products = this.querySelectorAll("button#offer-opener");
+    this.products = this.querySelectorAll("offer-product");
     console.log(this.products);
     this.products.forEach((product) => {
       product.addEventListener("click", this.onProductClick.bind(this));
@@ -1547,9 +1547,10 @@ class ProductOffers extends HTMLElement {
   }
   onProductClick(event) {
     event.preventDefault();
-    console.log(event.target);
     const target = event.target;
-    this.selection_wrap.innerHTML = this.get_html(target.parentNode);
+    console.log(target);
+    if (target.nodeName == "OFFER-PRODUCT")
+      this.selection_wrap.innerHTML = this.get_html(target);
   }
 
   get_html(target) {
