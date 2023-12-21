@@ -3324,6 +3324,39 @@
         "name": "Collapsible content"
       }
     },
+    "base_section": {
+      "name": "Base Section",
+      "settings": {
+        "title": {
+          "label": "Heading"
+        }
+      },
+      "blocks": {
+        "column": {
+          "name": "Column",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "title": {
+              "label": "Heading"
+            },
+            "text": {
+              "label": "Description"
+            },
+            "link_label": {
+              "label": "Link label"
+            },
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Base Section"
+      }
+    },
     "video-with-text": {
       "name": "Video with text",
       "settings": {
@@ -3491,6 +3524,27 @@
       },
       "presets": {
         "name": "Video with text"
+      }
+    },
+    "product_offers": {
+      "name": "Product Offers",
+      "settings": {
+        "title": {
+          "label": "Heading"
+        }
+      },
+      "blocks": {
+        "product_offer": {
+          "name": "Product Offer",
+          "settings": {
+            "link": {
+              "label": "Link"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Product Offers"
       }
     }
   }
