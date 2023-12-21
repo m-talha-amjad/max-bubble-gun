@@ -1538,12 +1538,13 @@ class ProductOffers extends HTMLElement {
   onProductClick(event) {
     const target = event.target;
     if (target.nodeName == "OFFER-PRODUCT")
-      this.selection_wrap.innerHTML = this.get_html(target);
+      this.selection_wrap.innerHTML =
+        target.querySelector("div[html]").innerHTML;
   }
 
-  get_html(target) {
-    const html = target.querySelector("div[html]").innerHTML;
-    return `<offer-product-selection>${html}</offer-product-selection>`;
-  }
+  // get_html(target) {
+  //   const html = target.querySelector("div[html]").innerHTML;
+  //   return `<offer-product-selection>${html}</offer-product-selection>`;
+  // }
 }
 customElements.define("product-offers", ProductOffers);
