@@ -1534,8 +1534,18 @@ class OfferProductSelection extends HTMLElement {
       option.setAttribute("aria-pressed", false);
     });
     target.setAttribute("aria-pressed", true);
+    this.getSelectedVariant();
     // const varinatId = [...this.variant_option].find((option) => input.checked).value;
     // console.log(varinatId);
+  }
+
+  getSelectedVariant() {
+    this.variantsData();
+    const selectedVariant = this.querySelector(
+      ".variant-option[aria-pressed='true']"
+    );
+    const varinatId = selectedVariant.dataset.value;
+    console.log(varinatId);
   }
 
   getVariantsData() {
