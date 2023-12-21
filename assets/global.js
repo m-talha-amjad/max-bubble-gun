@@ -1580,7 +1580,7 @@ class ProductOffers extends HTMLElement {
   constructor() {
     super();
     this.selection_wrap = this.querySelector("[selection-wrap]");
-    this.products = this.querySelectorAll("offer-product");
+    this.products = this.querySelectorAll(".offer-product");
     this.products.forEach((product) => {
       product.addEventListener("click", this.onProductClick.bind(this));
     });
