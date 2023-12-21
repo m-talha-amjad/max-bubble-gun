@@ -48,22 +48,32 @@ offer-product *{
   box-shadow: 0 7px 9px 0 rgba(0,0,0,.05),0 0 0 1px #848484;
 }
 .offer-product__label {
+  grid-row: 1/2;
   background-color: var(--offer-label-color);
   color: #fff;
   width: 100%;
   margin: 0 -10px;
   padding: 9px;
 }
-
+.offer-product__title { 
+  grid-row: 2/3;
+}
+.product-offers__featured-image {
+  grid-row: 3/4;
+}
 .offer-product__subtitle {
+  grid-row: 4/5;
   font-size: 22px;
   font-weight: bold;
 }
 .offer-product__price {
+  grid-row: 5/6;
   display: grid;
   text-align: center;
 }
-
+.offer-product__button {
+  grid-row: 6/7;
+}
 
 @media screen and (min-width: 750px) {
   .offer-product__subtitle {
