@@ -35,8 +35,8 @@
             {% when 'product_offer' %}
               {% assign offer_product = block.settings.product %}
               {% assign current_variant = offer_product.selected_or_first_available_variant   %}
-              <offer-product id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
-                <button type="button" class="cover-button"> </button>
+              <div id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
+                <button type="button" class="cover-button" is="offer-opener" ></button>
                 <div class="offer-product-title">{{ offer_product.title }}</div>
                 <div class="product-offers-featured-image">
                   <img src="{{ offer_product.featured_image |  image_url: width: 200  }}" loading="lazy" width="150" height="auto" alt="{{ offer_product.featured_image.alt }}">
@@ -62,7 +62,7 @@
                     {% endfor %}
                   </div>
                   </div>
-              </offer-product>
+              </div>
           {% endcase %}
         {% endfor %}
       </div>
