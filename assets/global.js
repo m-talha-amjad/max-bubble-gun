@@ -1521,7 +1521,15 @@ customElements.define("product-recommendations", ProductRecommendations);
 class OfferProductSelection extends HTMLElement {
   constructor() {
     super();
-    console.log("OfferProductSelection");
+    this.inputs = this.querySelectorAll("input");
+    this.inputs.forEach((input) =>
+      input.addEventListener("change", this.onInputChange.bind(this))
+    );
+  }
+  onInputChange(event) {
+    event.preventDefault();
+    const varinatId = [...this.inputs].find((input) => input.checked).value;
+    console.log(varinatId);
   }
 }
 customElements.define("offer-product-selection", OfferProductSelection);
