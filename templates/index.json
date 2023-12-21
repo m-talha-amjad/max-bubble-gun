@@ -58,8 +58,7 @@
           "settings": {
             "product": "1-max-bubble-gun",
             "title": "",
-            "link_label": "",
-            "link": ""
+            "link_label": ""
           }
         },
         "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-2": {
@@ -67,8 +66,7 @@
           "settings": {
             "product": "3-max-bubble-guns",
             "title": "Most Popular",
-            "link_label": "",
-            "link": ""
+            "link_label": ""
           }
         },
         "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3": {
@@ -76,8 +74,7 @@
           "settings": {
             "product": "5-max-bubble-guns",
             "title": "Best Deal",
-            "link_label": "",
-            "link": ""
+            "link_label": ""
           }
         }
       },
@@ -87,7 +84,7 @@
         "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3"
       ],
       "settings": {
-        "title": "Heading",
+        "title": "Get Max Bubble Gun Today!",
         "heading_size": "h1",
         "color_scheme": "",
         "padding_top": 36,
