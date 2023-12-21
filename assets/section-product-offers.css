@@ -63,11 +63,12 @@ offer-product-selection {
 .variant-option {
   min-width: 100px;
   cursor: pointer;
+  text-align: center;
 }
 .variant-option * {
   pointer-events: none;
 }
-.variant-option .swatch {
+.variant-option .variant-option__swatch {
   background-color: gray;
   border-radius: 50%;
   box-shadow: 0 0 0 3px #efefef;
@@ -78,29 +79,27 @@ offer-product-selection {
   width: 80px;
   height: 80px;
 }
-.variant-option.blue .swatch {
+.variant-option.blue .variant-option__swatch {
   background-color: rgb(0, 212, 255);
 }
-.variant-option.pink .swatch {
+.variant-option.pink .variant-option__swatch {
   background-color: rgb(255, 147, 177);
 }
-.variant-option.variety .swatch {
+.variant-option.variety .variant-option__swatch {
   background: linear-gradient(to right, #00d4ff 0%, #00d4ff 50%, #ff93b1 50%, #ff93b1 100%);;
 }
-.variant-option[aria-pressed="true"] .swatch {
+.variant-option[aria-pressed="true"] .variant-option__swatch {
   box-shadow: 0 0 0 5px #d4d1cb,0 0 0 6px #c5c0b8;
 }
-.variant-option .swatch svg {
+.variant-option .variant-option__swatch svg {
   display: none;
   margin: 15px;
 }
-.variant-option[aria-pressed="true"] .swatch svg {
+.variant-option[aria-pressed="true"] .variant-option__swatch svg {
   display: block;
 }
-.variant-option
-.offer-product:first-child img {
-  max-width: 200px;
-}
+
+
 
 .fixed-bar-bottom {
   position: fixed;
