@@ -1670,8 +1670,15 @@ class OfferProductTotal extends HTMLElement {
       this.handleChange.bind(this)
     );
   }
+  habdleChange(event) {
+    // console.log(event.details);
+    this.updateTotal(price);
+  }
   updateTotal(price) {
-    console.log(event.details);
+    this.querySelector(".price-value").innerHTML = Shopify.formatMoney(
+      price,
+      window.moneyFormat
+    );
   }
 }
 customElements.define("offer-product-total", OfferProductTotal);
