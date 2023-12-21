@@ -33,11 +33,6 @@
 
 
 
-.variant-images img ~ img {
-  display: none;
-}
-
-
 .offer-product:first-child img {
   max-width: 200px;
 }
