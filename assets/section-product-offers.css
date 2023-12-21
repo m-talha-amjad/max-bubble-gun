@@ -26,7 +26,6 @@
 
 /* #region product-offers */
 
-/* #endregion product-offers*/
 
 .offer-product {
   position: relative;
@@ -61,3 +60,6 @@
   display: flex;
   justify-content: center;
 }
+
+
+/* #endregion product-offers*/
