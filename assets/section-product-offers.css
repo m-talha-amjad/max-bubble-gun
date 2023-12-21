@@ -58,6 +58,10 @@ offer-product *{
   font-size: 22px;
   font-weight: bold;
 }
+.offer-product__price {
+  display: grid;
+  text-align: center;
+}
 
 
 @media screen and (min-width: 750px) {
