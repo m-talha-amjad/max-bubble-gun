@@ -1594,7 +1594,7 @@ class OfferProductSelection extends HTMLElement {
       this.updateMedia();
       document.dispatchEvent(
         new CustomEvent("offer-product-change", {
-          detail: { variant: this.currentVariant },
+          details: { variant: this.currentVariant },
         })
       );
     }
