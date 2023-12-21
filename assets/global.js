@@ -1529,7 +1529,6 @@ class OfferProductSelection extends HTMLElement {
   onInputChange(event) {
     event.preventDefault();
     const varinatId = [...this.inputs].find((input) => input.checked).value;
-    console.log(varinatId);
   }
 }
 customElements.define("offer-product-selection", OfferProductSelection);
@@ -1539,6 +1538,7 @@ class ProductOffers extends HTMLElement {
     super();
     this.selection_wrap = this.querySelector("[selection-wrap]");
     this.products = this.querySelectorAll("offer-product");
+    console.log(this.products);
     this.products.forEach((product) => {
       product.addEventListener("click", this.onProductClick.bind(this));
     });
