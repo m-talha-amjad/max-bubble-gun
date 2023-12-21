@@ -59,6 +59,7 @@ offer-product-selection {
 
 .variants-list {
   display: flex;
+  justify-content: center;
 }
 .variant-option {
   min-width: 100px;
