@@ -1670,6 +1670,8 @@ class OfferProductTotal extends HTMLElement {
   constructor() {
     super();
     this.product_offers = this.querySelector("product-offers");
+    this.submitButton = this.querySelector("button");
+    this.submit_Text = this.submitButton.innerHTML;
     document.addEventListener(
       "offer-product-change",
       this.handleChange.bind(this)
@@ -1686,6 +1688,15 @@ class OfferProductTotal extends HTMLElement {
       price,
       window.money_format
     );
+  }
+  submitButtonContent(check) {
+    if (check) {
+      this.submitButton.innerHTML = this.submit_Text;
+      this.submitButton.removeAttribute("disabled");
+    } else {
+      this.submitButton.innerHTML = window.variantStrings.soldOut;
+      this.submitButton.setAttribute("disabled", true);
+    }
   }
 }
 customElements.define("offer-product-total", OfferProductTotal);
