@@ -1665,9 +1665,12 @@ class OfferProductTotal extends HTMLElement {
   constructor() {
     super();
     this.product_offers = this.querySelector("product-offers");
-    document.addEventListener("offer-price-update", this.handleChange.bind());
+    document.addEventListener(
+      "offer-price-update",
+      this.handleChange.bind(this)
+    );
   }
-  habdleChange(event) {
+  handleChange(event) {
     // console.log(event.details);
     this.updateTotal(price);
   }
