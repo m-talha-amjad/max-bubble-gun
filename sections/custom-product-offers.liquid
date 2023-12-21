@@ -58,14 +58,9 @@
                                 assign pressed = true
                               endif
                           %}
-                          <div class="variant-option-wrap">
-                            <span class="variant-name"  >{{ variant.title }}</span>
-                            <div class="variant-option" data-value="{{variant.id}}"  role="button" aria-pressed="{{pressed}}" >
-                              {{ variant.title}}
-                            </div>
-                            
-
-                          </div> 
+                          <div class="variant-option" data-value="{{variant.id}}"  role="button" aria-pressed="{{pressed}}" >
+                            {{ variant.title}}
+                          </div>
                         {% endfor %}
                       </div>
                       <script id="product_json" type="application/json">
