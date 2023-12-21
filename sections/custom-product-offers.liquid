@@ -34,15 +34,19 @@
           {% case block.type %}
             {% when 'product_offer' %}
               {% assign offer_product = block.settings.product %}
-              <offer-product id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
-                <div class="offer-product-title">{{ offer_product.title }}</div>
-                <div class="product-offers-featured-image">
-                  <img src="{{ offer_product.featured_image |  image_url: width: 200  }}" loading="lazy" width="150" height="auto" alt="{{ offer_product.featured_image.alt }}">
-                  </div>
-                <div class="offer-product-price">
-                  <span class="compare-price">{{ offer_product.compare_at_price | money }}</span>
-                  <span class="current-price">{{ offer_product.price | money }}</span>
-                  </div>
+              <offer-product class="offer-product grid__item product-form__input">
+                <input type="radio" id="offer-product-{{ offer_product.id }}">
+                <label for="offer-product-{{ offer_product.id }}">
+                  <div class="offer-product-title">{{ offer_product.title }}</div>
+                  <div class="product-offers-featured-image">
+                    <img src="{{ offer_product.featured_image |  image_url: width: 200  }}" loading="lazy" width="150" height="auto" alt="{{ offer_product.featured_image.alt }}">
+                    </div>
+                  <div class="offer-product-price">
+                    <span class="compare-price">{{ offer_product.compare_at_price | money }}</span>
+                    <span class="current-price">{{ offer_product.price | money }}</span>
+                    </div>
+                </label>
+
               </offer-product>
           {% endcase %}
         {% endfor %}
