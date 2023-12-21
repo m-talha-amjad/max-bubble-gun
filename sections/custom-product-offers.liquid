@@ -59,8 +59,8 @@
                               endif
                           %}
                           <div class="variant-option {{ variant.title | downcase }}" data-value="{{variant.id}}"  role="button" aria-pressed="{{pressed}}" >
-                            <span class="title">{{ variant.title }}</span>
-                            <span class="swatch">
+                            <span class="variant-option__title">{{ variant.title }}</span>
+                            <span class="variant-option__swatch">
                               {% render 'icon-checked' %}
                             </span>
                           </div>
