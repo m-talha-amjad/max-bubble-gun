@@ -1593,8 +1593,8 @@ class OfferProductSelection extends HTMLElement {
     if (this.currentVariant) {
       this.updateMedia();
       document.dispatchEvent(
-        new CustomEvent("offer-price-update", {
-          detail: { price: this.currentVariant },
+        new CustomEvent("offer-product-change", {
+          detail: { variant: this.currentVariant },
         })
       );
     }
@@ -1666,13 +1666,13 @@ class OfferProductTotal extends HTMLElement {
     super();
     this.product_offers = this.querySelector("product-offers");
     document.addEventListener(
-      "offer-price-update",
+      "offer-product-change",
       this.handleChange.bind(this)
     );
   }
   handleChange(event) {
-    // console.log(event.details);
-    this.updateTotal(price);
+    console.log(event.details);
+    // this.updateTotal(price);
   }
   updateTotal(price) {
     this.querySelector(".price-value").innerHTML = Shopify.formatMoney(
