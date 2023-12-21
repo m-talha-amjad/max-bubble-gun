@@ -1534,8 +1534,10 @@ class OfferProductSelection extends HTMLElement {
     });
     target.setAttribute("aria-pressed", true);
     this.selectedVariant();
-    // const varinatId = [...this.variant_option].find((option) => input.checked).value;
-    // console.log(varinatId);
+    if (this.currentVariant) {
+      this.updateMedia();
+    }
+    console.log(this.currentVariant);
   }
 
   selectedVariant() {
@@ -1546,7 +1548,18 @@ class OfferProductSelection extends HTMLElement {
     this.currentVariant = this.getVariantsData().find(
       (variant) => variant.id == varinatId
     );
-    console.log(this.currentVariant);
+  }
+
+  updateMedia() {
+    if (!this.currentVariant) return;
+    if (!this.currentVariant.featured_media) return;
+    this.querySelectorAll(".variant-images img").forEach((image) => {
+      if (this.currentVariant.featured_media.id == image.dataset.mediaId) {
+        image.removeAttribute("hidden");
+      } else {
+        image.setAttribute("hidden", true);
+      }
+    });
   }
 
   getVariantsData() {
