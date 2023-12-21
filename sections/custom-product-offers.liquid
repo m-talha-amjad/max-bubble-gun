@@ -47,16 +47,15 @@
           {% endcase %}
         {% endfor %}
       </div>
-      <div class="product-offers__selection">
+      <div class="product-offers__selection" hidden>
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'product_offer' %}
               {% assign offer_product = block.settings.product %}
-              <offer-product-selection id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
-                
+            <offer-product-selection id="offer-product-{{ offer_product.id }}" class="offer-product grid__item" {% unless forloop.first %}hidden{% endunless %}>
                   <div class="variant-images">
                     {% for variant in offer_product.variants %}
-                    <img id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600  }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
+                    <img {% unless forloop.first %}hidden{% endunless %} id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600  }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
                   {% endfor %}
                   </div>
                   <div class="variants-list">
