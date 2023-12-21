@@ -1676,6 +1676,10 @@ class OfferProductTotal extends HTMLElement {
       "offer-product-change",
       this.handleChange.bind(this)
     );
+    this.submitButton.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.location.href = `${window.shopUrl}/cart/${this.currentVariant.id}:1}`;
+    });
   }
   handleChange(event) {
     this.currentVariant = event.detail.variant;
