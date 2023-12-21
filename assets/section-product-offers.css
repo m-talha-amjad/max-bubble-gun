@@ -31,7 +31,9 @@
   position: relative;
 }
 
-
+.variant-name {
+  display: none;
+}
 
 .offer-product:first-child img {
   max-width: 200px;
