@@ -55,12 +55,12 @@
               <offer-product-selection id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
                 
                   <div class="variant-images">
-                    {% for variant in offer_product %}
+                    {% for variant in offer_product.variants %}
                     <img id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600  }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
                   {% endfor %}
                   </div>
                   <div class="variants-list">
-                    {% for variant in offer_product %}
+                    {% for variant in offer_product.variants %}
                       <div class="variant-option">
                         <span class="variant-option__label">{{ variant.option1.value }}</span>
                       </div>
