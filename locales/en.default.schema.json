@@ -3537,6 +3537,12 @@
         "product_offer": {
           "name": "Product Offer",
           "settings": {
+            "product": {
+              "label": "Product"
+            },
+            "title": {
+              "label": "Custom Label"
+            },
             "link_label": {
               "label": "Link label"
             },
