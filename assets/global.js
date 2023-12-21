@@ -8,7 +8,7 @@ Shopify.formatMoney = function (cents, format) {
   }
   var value = "";
   var placeholderRegex = /\{\{\s*(\w+)\s*\}\}/;
-  var formatString = format || this.money_format;
+  var formatString = format || Shopify.money_format;
 
   function defaultOption(opt, def) {
     return typeof opt == "undefined" ? def : opt;
