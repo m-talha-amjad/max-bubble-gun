@@ -1581,6 +1581,7 @@ class OfferProductSelection extends HTMLElement {
   connectedCallback() {
     this.selectedVariant();
     this.updateMedia();
+    this.dispatchEvent();
   }
   onInputChange(event) {
     event.preventDefault();
@@ -1592,11 +1593,7 @@ class OfferProductSelection extends HTMLElement {
     this.selectedVariant();
     if (this.currentVariant) {
       this.updateMedia();
-      document.dispatchEvent(
-        new CustomEvent("offer-product-change", {
-          details: { variant: this.currentVariant },
-        })
-      );
+      this.dispatchEvent();
     }
   }
 
@@ -1629,6 +1626,14 @@ class OfferProductSelection extends HTMLElement {
       this.variantsData ||
       JSON.parse(this.querySelector('[type="application/json"]').textContent);
     return this.variantsData;
+  }
+
+  dispatchEvent() {
+    document.dispatchEvent(
+      new CustomEvent("offer-product-change", {
+        details: { variant: this.currentVariant },
+      })
+    );
   }
 }
 customElements.define("offer-product-selection", OfferProductSelection);
