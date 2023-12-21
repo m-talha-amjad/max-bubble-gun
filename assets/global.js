@@ -1537,7 +1537,6 @@ class OfferProductSelection extends HTMLElement {
     if (this.currentVariant) {
       this.updateMedia();
     }
-    console.log(this.currentVariant);
   }
 
   selectedVariant() {
@@ -1554,7 +1553,6 @@ class OfferProductSelection extends HTMLElement {
     if (!this.currentVariant) return;
     if (!this.currentVariant.featured_media) return;
     this.querySelectorAll(".variant-images img").forEach((image) => {
-      console.log(image.dataset);
       if (
         this.currentVariant.featured_media.id == parseInt(image.dataset.mediaId)
       ) {
