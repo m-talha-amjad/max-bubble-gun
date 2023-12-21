@@ -3517,12 +3517,17 @@ details-disclosure > details {
 /* ========================== */
 
 /* #region base extension */
+
+/* #region title component */
 .title-wrapper-align-center {
   text-align: center;
 }
 .title-wrapper-align-right {
   text-align: right;
 }
+
+/* #endregion title component */
+
 
 /* #endregion base extension */
 
