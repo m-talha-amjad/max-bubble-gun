@@ -45,6 +45,7 @@ offer-product-selection {
 }
 .variant-images {
   max-width: fit-content;
+  min-height: 200px;
 }
 .variant-images img {
   max-height: 200px;
