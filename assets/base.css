@@ -3527,7 +3527,7 @@ details-disclosure > details {
 }
 
 /* #endregion title component */
-[aria-hidden="true"] {
+[hidden] {
   display: none !important;
 }
 
