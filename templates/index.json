@@ -58,7 +58,7 @@
           "settings": {
             "product": "1-max-bubble-gun",
             "title": "",
-            "offer_label_color": "#4a4a4a",
+            "offer_label_color": "rgba(0,0,0,0)",
             "link_label": "Order Now"
           }
         },
