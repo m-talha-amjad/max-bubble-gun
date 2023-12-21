@@ -28,4 +28,5 @@
 }
 .offer-product {
   flex: 1 1 auto;
+  padding: 50px 10px 25px;
 }
