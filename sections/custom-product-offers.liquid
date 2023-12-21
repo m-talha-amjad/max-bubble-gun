@@ -32,7 +32,7 @@
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'product_offer' %}
-              <offer-product>
+              <offer-product class="offer-product">
                 <div class="product-offers-title">{{ block.settings.product.title }}</div>
               </offer-product>
           {% endcase %}
