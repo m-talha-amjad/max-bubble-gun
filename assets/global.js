@@ -1529,6 +1529,7 @@ class OfferProductSelection extends HTMLElement {
   onInputChange(event) {
     event.preventDefault();
     const varinatId = [...this.inputs].find((input) => input.checked).value;
+    console.log(varinatId);
   }
 }
 customElements.define("offer-product-selection", OfferProductSelection);
