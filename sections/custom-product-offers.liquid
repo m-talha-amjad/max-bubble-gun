@@ -46,12 +46,13 @@
                   <img src="{{ offer_product.featured_image |  image_url: width: 200 }}" loading="lazy" width="150" height="auto" alt="{{ offer_product.featured_image.alt }}">
                   </div>
                 <div class="offer-product__subtitle">{{ offer_product.metafields.dev.subtitle }}</div>
-                <div class="offer-product-price">
+                <div class="offer-product__price">
                   <span class="compare-price">{{ offer_product.compare_at_price | money }}</span>
                   <span class="current-price">{{ offer_product.price | money }}</span>
                   {% assign price_saved = offer_product.compare_at_price | minus: offer_product.price %}
                   <span class="price-saved">{{ price_saved | money }}</span>
                 </div>
+                <div class="button offer-product__button">{{ block.settings.link_label }}</div>
                 <div html hidden>
                     <div class="variant-images">
                       {% for variant in offer_product.variants %}
