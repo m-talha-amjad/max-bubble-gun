@@ -1533,12 +1533,12 @@ class OfferProductSelection extends HTMLElement {
       option.setAttribute("aria-pressed", false);
     });
     target.setAttribute("aria-pressed", true);
-    this.getSelectedVariant();
+    this.selectedVariant();
     // const varinatId = [...this.variant_option].find((option) => input.checked).value;
     // console.log(varinatId);
   }
 
-  getSelectedVariant() {
+  selectedVariant() {
     const selectedVariant = this.querySelector(
       ".variant-option[aria-pressed='true']"
     );
