@@ -38,6 +38,7 @@ offer-product *{
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, auto);
   justify-content: center;
+  text-align: center;
 }
 
 .offer-product > * {
