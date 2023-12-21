@@ -1537,6 +1537,13 @@ class OfferProductSelection extends HTMLElement {
     // const varinatId = [...this.variant_option].find((option) => input.checked).value;
     // console.log(varinatId);
   }
+
+  getVariantsData() {
+    this.variantsData =
+      this.variantsData ||
+      JSON.parse(this.querySelector('[type="application/json"]').textContent);
+    return this.variantsData;
+  }
 }
 customElements.define("offer-product-selection", OfferProductSelection);
 
