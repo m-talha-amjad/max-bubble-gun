@@ -1590,6 +1590,11 @@ class ProductOffers extends HTMLElement {
     const target = event.target;
     if (target.nodeName == "OFFER-PRODUCT")
       this.selection_wrap.innerHTML = this.get_html(target);
+
+    this.products.forEach((product) => {
+      product.removeAttribute("selected");
+    });
+    target.setAttribute("selected", true);
   }
 
   get_html(target) {
