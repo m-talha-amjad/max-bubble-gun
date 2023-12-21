@@ -1521,6 +1521,7 @@ customElements.define("product-recommendations", ProductRecommendations);
 class OfferProductSelection extends HTMLElement {
   constructor() {
     super();
+    console.log("OfferProductSelection");
   }
 }
 customElements.define("offer-product-selection", OfferProductSelection);
