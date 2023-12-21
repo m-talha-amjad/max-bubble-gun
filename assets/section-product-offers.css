@@ -57,6 +57,10 @@ offer-product-selection {
   display: none;
 }
 
+.variants-list {
+  display: flex;
+}
+
 .offer-product:first-child img {
   max-width: 200px;
 }
