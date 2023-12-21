@@ -1555,7 +1555,9 @@ class OfferProductSelection extends HTMLElement {
     if (!this.currentVariant.featured_media) return;
     this.querySelectorAll(".variant-images img").forEach((image) => {
       console.log(image.dataset);
-      if (this.currentVariant.featured_media.id == image.dataset.mediaId) {
+      if (
+        this.currentVariant.featured_media.id == parseInt(image.dataset.mediaId)
+      ) {
         image.removeAttribute("hidden");
       } else {
         image.setAttribute("hidden", true);
