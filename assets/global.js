@@ -1518,10 +1518,24 @@ class ProductRecommendations extends HTMLElement {
 
 customElements.define("product-recommendations", ProductRecommendations);
 
+class OfferProductSelection extends HTMLElement {
+  constructor() {
+    super();
+  }
+}
+customElements.define("offer-product-selection", OfferProductSelection);
+
 class ProductOffers extends HTMLElement {
   constructor() {
     super();
     this.selection_wrap = this.querySelector("[selection-wrap]");
+    this.products = this.querySelectorAll("offer-product");
+    this.products.forEach((product) => {
+      product.addEventListener("click", this.onProductClick.bind(this));
+    });
+  }
+  onProductClick(event) {
+    console.log(event.target);
   }
 }
 customElements.define("product-offers", ProductOffers);
