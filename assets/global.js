@@ -1537,6 +1537,7 @@ class ProductOffers extends HTMLElement {
   }
   onProductClick(event) {
     const target = event.target;
+    console.log(target);
     if (target.nodeName == "OFFER-PRODUCT")
       this.selection_wrap.innerHTML =
         target.querySelector("div[html]").innerHTML;
