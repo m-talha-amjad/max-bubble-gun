@@ -1535,9 +1535,9 @@ class ProductOffers extends HTMLElement {
     });
   }
   onProductClick(event) {
-    console.log(event);
     const target = event.target;
-    this.selection_wrap.innerHTML = this.get_html(target);
+    if (target.nodeName == "OFFER-PRODUCT")
+      this.selection_wrap.innerHTML = this.get_html(target);
   }
 
   get_html(target) {
