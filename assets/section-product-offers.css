@@ -29,6 +29,8 @@
 
 .offer-product {
   position: relative;
+  padding: 50px 10px 25px;
+  box-shadow: 0 7px 9px 0 rgba(0,0,0,.05),0 0 0 1px #848484;
 }
 
 .variant-name {
