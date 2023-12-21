@@ -1547,10 +1547,9 @@ class ProductOffers extends HTMLElement {
   }
   onProductClick(event) {
     event.preventDefault();
+    console.log(event.target);
     const target = event.target;
-    console.log(target);
-    if (target.nodeName == "OFFER-PRODUCT")
-      this.selection_wrap.innerHTML = this.get_html(target);
+    this.selection_wrap.innerHTML = this.get_html(target.parentNode);
   }
 
   get_html(target) {
