@@ -1684,7 +1684,7 @@ class OfferProductTotal extends HTMLElement {
   updateTotal(price) {
     this.querySelector(".price-value").innerHTML = Shopify.formatMoney(
       price,
-      window.moneyFormat
+      window.money_format
     );
   }
 }
