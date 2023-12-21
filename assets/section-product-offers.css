@@ -22,3 +22,13 @@
   }
 }
 
+
+
+
+
+
+
+
+.offer-product ~ .offer-product {
+  display: none;
+}
