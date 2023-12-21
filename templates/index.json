@@ -58,6 +58,7 @@
           "settings": {
             "product": "1-max-bubble-gun",
             "title": "",
+            "offer_label_color": "#4a4a4a",
             "link_label": "Order Now"
           }
         },
@@ -66,6 +67,7 @@
           "settings": {
             "product": "3-max-bubble-guns",
             "title": "Most Popular",
+            "offer_label_color": "#ed1300",
             "link_label": "Order Now"
           }
         },
@@ -74,6 +76,7 @@
           "settings": {
             "product": "5-max-bubble-guns",
             "title": "Best Deal",
+            "offer_label_color": "#4a4a4a",
             "link_label": "Order Now"
           }
         }
