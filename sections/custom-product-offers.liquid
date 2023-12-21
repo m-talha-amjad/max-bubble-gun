@@ -62,13 +62,14 @@
                     <img {% unless forloop.first %}hidden{% endunless %} id="Slide-{{ section.id }}-{{ variant.featured_media.id }}" src="{{ variant.featured_media | image_url: width: 600  }}" loading="lazy" width="600" height="auto" alt="{{ offer_product.featured_media.alt }}">
                   {% endfor %}
                   </div>
-                  <div class="variants-list">
+                  <fieldset class="variants-list product-form__input">
                     {% for variant in offer_product.variants %}
-                      <div class="variant-option" id="{{ variant.id }}">
+                      <input type="radio" name="" id="variant-{{ variant.id }}">
+                      <label class="variant-option" for="variant-{{ variant.id }}">
                         <span class="variant-option__label">{{ variant.title }}</span>
-                      </div>
+                      </label>
                     {% endfor %}
-                  </div>
+                  </difieldsetv>
               </offer-product-selection>
           {% endcase %}
         {% endfor %}
