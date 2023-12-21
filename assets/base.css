@@ -3528,6 +3528,11 @@ details-disclosure > details {
   margin: 0 auto;
   background: #fff;
 }
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
 /* #endregion Custom End*/
 /* == M Talha Amjad ==End== */
 /* ======================== */
