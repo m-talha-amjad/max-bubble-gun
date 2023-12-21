@@ -3511,3 +3511,23 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
+/* == M Talha Amjad ==Start== */
+/* ========================== */
+/* #region Overrides */
+
+/* #endregion Overrides End*/
+/* #region Custom Overrides */
+
+/* #endregion Custom Overrides End*/
+/* #region Custom */
+#MainContent {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+}
+/* #endregion Custom End*/
+/* == M Talha Amjad ==End== */
+/* ======================== */
