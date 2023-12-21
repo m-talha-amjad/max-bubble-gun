@@ -1530,6 +1530,9 @@ class OfferProductSelection extends HTMLElement {
   onInputChange(event) {
     event.preventDefault();
     const target = event.target;
+    this.variant_option.forEach((option) => {
+      option.setAttribute("aria-pressed", false);
+    });
     target.setAttribute("aria-pressed", true);
     // const varinatId = [...this.variant_option].find((option) => input.checked).value;
     // console.log(varinatId);
