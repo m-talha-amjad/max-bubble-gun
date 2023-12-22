@@ -105,7 +105,7 @@ offer-product *{
   font-weight: 600;
   max-height: 60px;
 }
-.offer-product__button:hover {
+.offer-product:hover .offer-product__button {
   background: #f4d17e!important;
   background: linear-gradient(to bottom,#f4d17e 0,#f0c14f 100%)!important;
 }
