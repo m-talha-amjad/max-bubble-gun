@@ -62,20 +62,20 @@
             "link": ""
           }
         },
-        "template--20701774938135__fc461fee-8bbd-4ed8-b274-cbe9bb481adc-column-2": {
+        "0e88627e-7151-429c-8044-47d812202898": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Step 1",
+            "text": "<p>Grab Your Gun<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "template--20701774938135__fc461fee-8bbd-4ed8-b274-cbe9bb481adc-column-3": {
+        "a4cbcf2f-72d0-4eee-b48e-2a1245c510c1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Step 1",
+            "text": "<p>Grab Your Gun<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -83,8 +83,8 @@
       },
       "block_order": [
         "template--20701774938135__fc461fee-8bbd-4ed8-b274-cbe9bb481adc-column-1",
-        "template--20701774938135__fc461fee-8bbd-4ed8-b274-cbe9bb481adc-column-2",
-        "template--20701774938135__fc461fee-8bbd-4ed8-b274-cbe9bb481adc-column-3"
+        "0e88627e-7151-429c-8044-47d812202898",
+        "a4cbcf2f-72d0-4eee-b48e-2a1245c510c1"
       ],
       "settings": {
         "title": "Multicolumn",
