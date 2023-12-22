@@ -232,6 +232,10 @@ offer-product-selection {
   font-weight: 700;
   text-transform: uppercase;
 }
+.fixed-bar-bottom button {
+  background: #27b552!important;
+  background: linear-gradient(to bottom,#27b552 0,#1e8b3f 100%)!important;
+}
 
 @media screen and (min-width: 750px) {
 }
