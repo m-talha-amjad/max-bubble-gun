@@ -57,23 +57,23 @@ offer-product *{
   min-height: 40px;
 }
 .offer-product__title { 
-  grid-row: 2/3;
+  /* grid-row: 2/3; */
 }
 .product-offers__featured-image {
-  grid-row: 3/4;
+  grid-row: 2/3;
 }
 .offer-product__subtitle {
-  grid-row: 4/5;
+  /* grid-row: 4/5; */
   font-size: 22px;
   font-weight: bold;
 }
 .offer-product__price {
-  grid-row: 5/6;
+  grid-row: 3/4;
   display: grid;
   text-align: center;
 }
 .offer-product__button {
-  grid-row: 6/7;
+  grid-row: 4/5;
   max-height: 45px;
 }
 
