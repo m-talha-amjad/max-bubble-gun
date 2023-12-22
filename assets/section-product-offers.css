@@ -119,7 +119,7 @@ offer-product *{
 .offer-product__price {
   display: grid;
   grid-template-rows: max-content;
-  text-align: center;
+  text-align: left;
   font-size: 1.5rem;
   line-height: 1.2;
 }
