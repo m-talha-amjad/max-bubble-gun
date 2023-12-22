@@ -231,14 +231,14 @@ offer-product-selection {
   min-width: 30rem;
   text-align: right;
 }
-.offer-product-total button {
+.offer-product-total .cart__checkout-button {
   background: linear-gradient(to bottom,#25ad4e 0,#1c833b 100%)!important;
   padding: 1.7rem 6rem;
   font-size: 2.8rem;
   font-weight: 700;
   text-transform: uppercase;
 }
-.offer-product-total button {
+.offer-product-total .cart__checkout-button {
   background: #27b552!important;
   background: linear-gradient(to bottom,#27b552 0,#1e8b3f 100%)!important;
 }
