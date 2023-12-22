@@ -56,10 +56,10 @@
                   <span class="current-price"> {{ offer_product.price | money }}</span>
                   {% if offer_product.metafields.dev.subtitle != blank %}
                     {% assign price_saved = offer_product.compare_at_price | minus: offer_product.price %}
-                    <span class="price-saved"> {{ price_saved | money }}</span>
+                    <span class="price-saved">(Saved {{ price_saved | money }})</span>
                   {% endif %}
                 </div>
-                <div class="button offer-product__button">(Saved {{ block.settings.link_label }})</div>
+                <div class="button offer-product__button">{{ block.settings.link_label }}</div>
                 <div html hidden>
                     <div class="offer-product__common_title">{{ offer_product_title[1] }}</div>
                     <div class="variant-images">
