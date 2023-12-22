@@ -63,7 +63,6 @@ offer-product *{
   grid-row: 2/3;
 }
 .offer-product__subtitle {
-  /* grid-row: 4/5; */
   font-size: 22px;
   font-weight: bold;
 }
@@ -72,11 +71,9 @@ offer-product *{
   display: grid;
   grid-template-rows: max-content;
   text-align: center;
-  min-height: 100px;
 }
 .offer-product__button {
   grid-row: 4/5;
-  max-height: 45px;
 }
 
 @media screen and (min-width: 750px) {
