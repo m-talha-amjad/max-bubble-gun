@@ -36,7 +36,7 @@ offer-product *{
   box-shadow: 0 0 0 1px #0000001a,0 7px 9px #0000000d;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 40px 200px 100px 45px;
+  grid-template-rows: 40px 200px 100px 60px;
   text-align: center;
   align-content: space-between;
 }
@@ -75,6 +75,12 @@ offer-product *{
 }
 .offer-product__button {
   grid-row: 4/5;
+  color: #000!important;
+  text-shadow: 0 1px 1px rgba(255,255,255,.5);
+  background: #f3ce75!important;
+  background: linear-gradient(to bottom,#f3ce75 0,#edb52f 100%)!important;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 750px) {
