@@ -183,8 +183,8 @@ offer-product *{
     text-align: center;
     font-size: 1.6rem;
     align-self: flex-start;
+    line-height: calc(1 + 0.4 / var(--font-body-scale));
   }
-
   .offer-product__subtitle {
     font-size: 2.2rem;
   }
