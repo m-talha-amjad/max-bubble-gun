@@ -89,6 +89,10 @@ offer-product *{
   font-size: 3.2rem;
   line-height: 1;
 }
+.price-saved {
+  color: #25ae4e;
+  font-weight: 700;
+}
 
 .offer-product__button {
   grid-row: 4/5;
