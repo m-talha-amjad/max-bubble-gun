@@ -269,7 +269,7 @@ offer-product-selection {
 .variants-list {
   display: flex;
   justify-content: center;
-  gap: 3.5rem;
+  gap: 1.5rem;
   margin-top: 2.5rem;
 }
 .variant-option {
@@ -290,8 +290,8 @@ offer-product-selection {
   margin: 0 auto;
   overflow: hidden;
   display: block;
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
 }
 .variant-option.blue .variant-option__swatch {
   background-color: rgb(0, 212, 255);
@@ -318,6 +318,11 @@ offer-product-selection {
     padding: 40px;
     margin-bottom: 90px;
   }
+  .variants-list {
+    gap: 3.5rem;
+    margin-top: 2.5rem;
+  }
+  
   .variant-images {
     min-height: 20rem;
   }
@@ -326,6 +331,10 @@ offer-product-selection {
     max-width: 100%;
     width: 100%;
     display: block;
+  }
+  .variant-option .variant-option__swatch {
+    width: 8rem;
+    height: 8rem;
   }
 }
 
