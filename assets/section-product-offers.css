@@ -52,7 +52,15 @@ offer-product *{
   background-color: var(--selected-color,#cee0e5);
 }
 .offer-product__label {
-  grid-row: 1/2;
+  left: 100%;
+  transform: rotate(45deg);
+  transform-origin: top left;
+  text-align: center;
+  -webkit-box-shadow: 0 0 8px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 0 8px rgba(0,0,0,.3);
+  box-shadow: 0 0 8px rgba(0,0,0,.3);
+  position: absolute;
+  z-index: 90;
   background-color: var(--offer-label-color);
   color: #fff;
   width: calc(100% + 20px);
