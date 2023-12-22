@@ -74,6 +74,7 @@ offer-product *{
 }
 .offer-product__button {
   grid-row: 6/7;
+  max-height: 45px;
 }
 
 @media screen and (min-width: 750px) {
