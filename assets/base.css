@@ -3546,8 +3546,11 @@ details-disclosure > details {
     display: none !important;
   }
 }
-
-
+@media screen and (max-width: 989px) {
+  .large-down-hide {
+    display: none !important;
+  }
+}
 /* #endregion base extension */
 
 
