@@ -342,8 +342,8 @@ offer-product-selection {
 }
 .offer-product-total .cart__checkout-button {
   background: linear-gradient(to bottom,#25ad4e 0,#1c833b 100%)!important;
-  padding: 1.7rem 6rem;
-  font-size: 2.8rem;
+  padding: 0.7rem 1.8rem;
+  font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase;
 }
