@@ -3538,7 +3538,9 @@ details-disclosure > details {
 
 
 /* #region Overrides */
-
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.2),0 0 0 1px rgba(0,0,0,.2) inset;
+}
 /* #endregion Overrides End*/
 
 
