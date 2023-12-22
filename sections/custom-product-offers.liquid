@@ -40,7 +40,7 @@
               {% assign offer_product = block.settings.product %}
               {% assign current_variant = offer_product.selected_or_first_available_variant %}
               <offer-product id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
-                <div class="offer-product__label" {% if block.settings.offer_label_color != empty %}style="--offer-label-color: {{ block.settings.offer_label_color }}"{% endif %}> {{ block.settings.title }}</div>
+                <div class="offer-product__label" {% if block.settings.offer_label_color.alpha != 0 %}style="--offer-label-color: {{ block.settings.offer_label_color }}"{% endif %}> {{ block.settings.title }}</div>
                 <div class="offer-product__featured-image">
                   <span class="input-icons medium-up-hide">
                     <span class="unchecked-icon"></span>
