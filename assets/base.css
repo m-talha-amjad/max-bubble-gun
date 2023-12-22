@@ -3566,12 +3566,12 @@ details-disclosure > details {
 
 
 /* #region Custom Overrides */
-.header__inline-menu {
+
+
+header-drawer,.header__inline-menu,.header__icons {
   display: none !important;
 }
-.header__icons {
-  display: none !important;
-}
+
 
 /* #endregion Custom Overrides End*/
 
