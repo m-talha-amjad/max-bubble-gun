@@ -53,7 +53,12 @@ offer-product *{
   background-color: var(--selected-color,#cee0e5);
 }
 .offer-product__label {
+  height: 30px;
+  width: 13rem;
+  line-height: 28px;
+  top: -25px;
   left: 100%;
+  margin-left: -65px;
   transform: rotate(45deg);
   transform-origin: top left;
   text-align: center;
@@ -64,9 +69,8 @@ offer-product *{
   z-index: 90;
   background-color: var(--offer-label-color);
   color: #fff;
-  width: calc(100% + 20px);
-  margin: 0 -10px;
-  line-height: 40px;
+  white-space: nowrap;
+  font-size: 1rem;
   font-weight: 600;
 }
 .offer-product__title {
