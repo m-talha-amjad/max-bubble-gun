@@ -46,7 +46,9 @@
                   <img src="{{ offer_product.featured_image |  image_url: width: 200 }}" loading="lazy" width="150" height="auto" alt="{{ offer_product.featured_image.alt }}">
                 </div>
                 <div class="offer-product__price">
-                  <div class="offer-product__subtitle"> {{ offer_product.metafields.dev.subtitle }}</div>
+                  {% if offer_product.metafields.dev.subtitle != blank %}
+                    <div class="offer-product__subtitle"> {{ offer_product.metafields.dev.subtitle }}</div>
+                  {% endif %}
                   <span class="compare-price"> {{ offer_product.compare_at_price | money }}</span>
                   <span class="current-price"> {{ offer_product.price | money }}</span>
                   {% if offer_product.metafields.dev.subtitle != blank %}
