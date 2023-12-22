@@ -91,7 +91,7 @@
         "heading_size": "h1",
         "subtitle": "<p>Give customers details about the custom offers.<\/p>",
         "text_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "padding_top": 24,
         "padding_bottom": 0
       }
