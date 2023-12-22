@@ -3519,10 +3519,13 @@ details-disclosure > details {
 /* #region base extension */
 
 /* #region title component */
-.title-wrapper-align-center {
+.title-wrapper {
+  margin-bottom: 2.5rem;
+}
+.title-wrapper--align-center {
   text-align: center;
 }
-.title-wrapper-align-right {
+.title-wrapper--align-right {
   text-align: right;
 }
 .subtitle {
