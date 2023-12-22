@@ -173,6 +173,9 @@ offer-product *{
     display: block;
     grid-row: 2/3;
   }
+  .offer-product__featured-image img {
+    max-width: 100%;
+  }
   .offer-product__price {
     grid-row: 3/4;
     display: grid;
