@@ -41,7 +41,7 @@
               {% assign current_variant = offer_product.selected_or_first_available_variant %}
               <offer-product id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
                 <div class="offer-product__label" {% if block.settings.offer_label_color != empty %}style="--offer-label-color: {{ block.settings.offer_label_color }}"{% endif %}> {{ block.settings.title }}</div>
-                <div class="product-offers__featured-image">
+                <div class="offer-product__featured-image">
                   <span class="input-icons">
                     <span class="unchecked-icon"></span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="checked-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
