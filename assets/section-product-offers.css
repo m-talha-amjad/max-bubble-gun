@@ -182,6 +182,7 @@ offer-product *{
     grid-template-rows: max-content;
     text-align: center;
     font-size: 1.6rem;
+    align-self: flex-start;
   }
 
   .offer-product__subtitle {
