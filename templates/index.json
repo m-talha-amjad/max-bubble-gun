@@ -89,6 +89,9 @@
         "0e88627e-7151-429c-8044-47d812202898",
         "a4cbcf2f-72d0-4eee-b48e-2a1245c510c1"
       ],
+      "custom_css": [
+        ".multicolumn-card__info {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -99,7 +102,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "inverse",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
