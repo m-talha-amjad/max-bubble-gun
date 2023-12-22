@@ -3567,10 +3567,10 @@ details-disclosure > details {
 
 /* #region Custom Overrides */
 .header__inline-menu {
-  display: none;
+  display: none !important;
 }
 .header__icons {
-  display: none;
+  display: none !important;
 }
 
 /* #endregion Custom Overrides End*/
