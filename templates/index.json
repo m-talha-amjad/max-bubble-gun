@@ -56,6 +56,7 @@
         "template--20701774938135__fc461fee-8bbd-4ed8-b274-cbe9bb481adc-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Step1b.jpg",
             "title": "Step 1",
             "text": "<p>Grab Your Gun<\/p>",
             "link_label": "",
@@ -65,6 +66,7 @@
         "0e88627e-7151-429c-8044-47d812202898": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Step2b.jpg",
             "title": "Step 1",
             "text": "<p>Grab Your Gun<\/p>",
             "link_label": "",
@@ -74,6 +76,7 @@
         "a4cbcf2f-72d0-4eee-b48e-2a1245c510c1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Step3b.jpg",
             "title": "Step 1",
             "text": "<p>Grab Your Gun<\/p>",
             "link_label": "",
