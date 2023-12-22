@@ -32,13 +32,13 @@ offer-product *{
 }
 .offer-product {
   position: relative;
-  padding: 0px 10px 25px;
+  padding: 0 10px 25px;
   box-shadow: 0 0 0 1px #0000001a,0 7px 9px #0000000d;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, auto);
-  justify-content: center;
+  grid-template-rows: repeat(6,auto);
   text-align: center;
+  align-content: space-between;
 }
 
 .offer-product > * {
