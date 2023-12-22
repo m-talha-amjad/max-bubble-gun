@@ -215,6 +215,7 @@ offer-product-selection {
   display: flex;
   gap: 20px;
   justify-content: center;
+  align-items: center;
   padding: 10px;
   background: #fff;
   border-top: 1px solid #c4c4c4;
