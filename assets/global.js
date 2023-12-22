@@ -1682,6 +1682,7 @@ class OfferProductTotal extends HTMLElement {
     });
   }
   handleChange(event) {
+    this.removeAttribute("hidden");
     this.currentVariant = event.detail.variant;
     if (this.currentVariant.available) {
       this.submitButtonContent(true);
