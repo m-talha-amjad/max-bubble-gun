@@ -143,9 +143,10 @@ offer-product-selection {
   min-height: 20rem;
 }
 .variant-images img {
-  max-height: 20rem;
+  max-height: 200px;
   max-width: 100%;
   width: 100%;
+  display: block;
 }
 
 .variant-name {
