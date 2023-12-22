@@ -57,6 +57,8 @@
                 <div class="offer-product__price">
                   {% if offer_product.metafields.dev.subtitle != blank %}
                     <div class="offer-product__subtitle"> {{ offer_product.metafields.dev.subtitle }}</div>
+                  {% else %}
+                      <div class="offer-product__title medium-up-hide"><strong>{{ offer_product_title[0] }}</strong> – {{ offer_product_title[1] }}</div>
                   {% endif %}
                   <span class="compare-price">Retail {{ offer_product.compare_at_price | money }}</span>
                   <span class="current-price"> {{ offer_product.price | money }}</span>
