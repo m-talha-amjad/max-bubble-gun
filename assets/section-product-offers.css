@@ -238,7 +238,7 @@ offer-product-selection {
 }
 .variant-images {
   max-width: fit-content;
-  min-height: 20rem;
+  min-height: 9rem;
 }
 .variant-images img {
   max-height: 90px;
@@ -299,6 +299,9 @@ offer-product-selection {
 }
 
 @media screen and (min-width: 750px) {
+  .variant-images {
+    min-height: 20rem;
+  }
   .variant-images img {
     max-height: 200px;
     max-width: 100%;
