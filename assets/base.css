@@ -3525,7 +3525,9 @@ details-disclosure > details {
 .title-wrapper-align-right {
   text-align: right;
 }
-
+.subtitle {
+  font-size: 1.8rem;
+}
 /* #endregion title component */
 [hidden] {
   display: none !important;
