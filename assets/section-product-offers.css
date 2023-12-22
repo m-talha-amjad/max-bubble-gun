@@ -70,7 +70,9 @@ offer-product *{
 .offer-product__price {
   grid-row: 3/4;
   display: grid;
+  grid-template-rows: max-content;
   text-align: center;
+  min-height: 100px;
 }
 .offer-product__button {
   grid-row: 4/5;
