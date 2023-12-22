@@ -76,7 +76,7 @@ offer-product *{
   font-weight: 600;
 }
 .offer-product__title {
-
+  font-weight: 700;
 }
 .offer-product__featured-image {
   display: flex;
