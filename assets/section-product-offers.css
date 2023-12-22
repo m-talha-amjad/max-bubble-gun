@@ -78,6 +78,7 @@ offer-product *{
 }
 .offer-product__button {
   grid-row: 4/5;
+  align-self: self-end;
   color: #000;
   text-shadow: 0 1px 1px rgba(255,255,255,.5);
   background: #f3ce75;
