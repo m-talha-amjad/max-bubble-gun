@@ -155,7 +155,8 @@ offer-product-selection {
 .variants-list {
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 3.5rem;
+  margin-top: 2.5rem;
 }
 .variant-option {
   min-width: 100px;
