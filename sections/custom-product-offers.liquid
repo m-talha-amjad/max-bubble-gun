@@ -51,7 +51,7 @@
                   {% liquid
                     assign offer_product_title = offer_product.title | split: '–'
                   %}
-                  <div class="offer-product__title"><strong>{{ offer_product_title[0] }}</strong> – {{ offer_product_title[1] }}</div>
+                  <div class="offer-product__title small-hide"><strong>{{ offer_product_title[0] }}</strong> – {{ offer_product_title[1] }}</div>
                   <img src="{{ offer_product.featured_image |  image_url: width: 200 }}" loading="lazy" width="150" height="auto" alt="{{ offer_product.featured_image.alt }}">
                 </div>
                 <div class="offer-product__price">
