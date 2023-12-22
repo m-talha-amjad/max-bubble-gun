@@ -42,6 +42,12 @@
               <offer-product id="offer-product-{{ offer_product.id }}" class="offer-product grid__item">
                 <div class="offer-product__label" {% if block.settings.offer_label_color != empty %}style="--offer-label-color: {{ block.settings.offer_label_color }}"{% endif %}> {{ block.settings.title }}</div>
                 <div class="product-offers__featured-image">
+                  <span class="input-icons">
+                    <span class="unchecked-icon"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="checked-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <path d="M5.57075 11.0824L2.40987 7.76543L1.3335 8.88698L5.57075 13.3334L14.6668 3.7883L13.598 2.66675L5.57075 11.0824Z" fill="#F9F9FB"></path>
+                    </svg>
+                  </span>
                   {% liquid
                     assign offer_product_title = offer_product.title | split: '–'
                   %}
