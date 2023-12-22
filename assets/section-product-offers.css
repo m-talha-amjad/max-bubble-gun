@@ -76,7 +76,8 @@ offer-product *{
   /* grid-row: 2/3; */
 }
 .offer-product__featured-image img {
-  max-width: 100%;
+  max-width: 65px;
+  height: fit-content;
 }
 .offer-product .input-icons {
   position: absolute;
