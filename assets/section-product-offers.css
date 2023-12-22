@@ -74,7 +74,10 @@ offer-product *{
   padding: 10px 0;
 }
 .offer-product__featured-image {
-  /* grid-row: 2/3; */
+  display: flex;
+  grid-column: 1/2;
+  gap: 8px;
+  align-items: center;
 }
 .offer-product__featured-image img {
   max-width: 65px;
