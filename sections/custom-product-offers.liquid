@@ -49,14 +49,14 @@
                   {% if offer_product.metafields.dev.subtitle != blank %}
                     <div class="offer-product__subtitle"> {{ offer_product.metafields.dev.subtitle }}</div>
                   {% endif %}
-                  <span class="compare-price"> {{ offer_product.compare_at_price | money }}</span>
+                  <span class="compare-price">Retail {{ offer_product.compare_at_price | money }}</span>
                   <span class="current-price"> {{ offer_product.price | money }}</span>
                   {% if offer_product.metafields.dev.subtitle != blank %}
                     {% assign price_saved = offer_product.compare_at_price | minus: offer_product.price %}
                     <span class="price-saved"> {{ price_saved | money }}</span>
                   {% endif %}
                 </div>
-                <div class="button offer-product__button">{{ block.settings.link_label }}</div>
+                <div class="button offer-product__button">(Saved {{ block.settings.link_label }})</div>
                 <div html hidden>
                     <div class="variant-images">
                       {% for variant in offer_product.variants %}
