@@ -113,6 +113,8 @@ offer-product *{
 }
 
 
+/* #region product-offers__selection */
+
 .product-offers__selection {
   padding: 40px;
   color: #434339;
@@ -129,6 +131,12 @@ offer-product-selection {
   margin-top: 40px;
   padding: 20px;
   box-shadow: 0 0 0 1px rgba(0,0,0,.05),0 0 4px 0 rgba(0,0,0,.1);
+}
+.offer-product__common_title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 .variant-images {
   max-width: fit-content;
@@ -192,6 +200,8 @@ offer-product-selection {
 
 @media screen and (min-width: 750px) {
 }
+
+/* #endregion product-offers__selection */
 
 
 .fixed-bar-bottom {
