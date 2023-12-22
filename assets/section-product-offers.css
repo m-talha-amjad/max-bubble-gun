@@ -45,7 +45,8 @@ offer-product *{
   width: 100%;
 }
 .offer-product[selected] {
-  box-shadow: 0 7px 9px 0 rgba(0,0,0,.05),0 0 0 1px #848484;
+  box-shadow: 0 7px 9px #0000000d,0 0 0 1px #848484;
+  transform: scale(1.03);
 }
 .offer-product__label {
   grid-row: 1/2;
