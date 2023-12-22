@@ -48,6 +48,7 @@ offer-product *{
 .offer-product[selected] {
   box-shadow: 0 7px 9px #0000000d,0 0 0 1px #848484;
   transform: scale(1.03);
+  background-color: var(--selected-color,#cee0e5);
 }
 .offer-product__label {
   grid-row: 1/2;
