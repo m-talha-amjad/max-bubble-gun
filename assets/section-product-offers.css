@@ -41,6 +41,7 @@ offer-product *{
   grid-template-rows: auto;
   text-align: center;
   align-content: space-between;
+  align-items: center;
 }
 
 .offer-product > * {
