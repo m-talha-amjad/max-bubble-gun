@@ -124,6 +124,10 @@ offer-product *{
     margin: 0 -10px;
     line-height: 40px;
   }
+  .offer-product__title {
+    font-size: 2rem;
+    padding: 10px 0;
+  }
   .offer-product__subtitle {
     font-size: 2.2rem;
   }
