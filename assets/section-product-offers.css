@@ -80,7 +80,7 @@ offer-product *{
   height: fit-content;
 }
 .offer-product .input-icons {
-
+  height: fit-content;
 }
 .unchecked-icon {
   width: 2.25rem;
