@@ -160,6 +160,9 @@ offer-product *{
     width: calc(100% + 20px);
     margin: 0 -10px;
     line-height: 40px;
+    position: static;
+    height: auto;
+    transform: none;
   }
   .offer-product__title {
     font-size: 2rem;
