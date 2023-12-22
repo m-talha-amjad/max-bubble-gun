@@ -39,6 +39,7 @@ offer-product *{
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto;
+  gap: 2rem;
   text-align: center;
   align-content: space-between;
   align-items: center;
@@ -152,6 +153,7 @@ offer-product *{
     padding: 0 10px 25px;
     grid-template-columns: 1fr;
     grid-template-rows: 40px 200px 140px 75px;
+    gap: 0rem;
     text-align: center;
     align-content: space-between;
   }
