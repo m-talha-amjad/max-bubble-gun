@@ -106,6 +106,7 @@ offer-product *{
 offer-product-selection {
   display: grid;
   justify-content: center;
+  background: #fff;
 }
 .variant-images {
   max-width: fit-content;
