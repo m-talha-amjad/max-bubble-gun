@@ -224,6 +224,12 @@ offer-product-selection {
   color: #000;
   font-weight: 700;
 }
+.fixed-bar-bottom button {
+  background: linear-gradient(to bottom,#25ad4e 0,#1c833b 100%)!important;
+  padding: 18px 60px;
+  font-size: 2.8rem;
+}
+
 @media screen and (min-width: 750px) {
 }
 
