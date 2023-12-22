@@ -3528,6 +3528,10 @@ details-disclosure > details {
 .subtitle {
   font-size: 1.8rem;
 }
+.subtitle p {
+  margin: 0;
+}
+
 /* #endregion title component */
 [hidden] {
   display: none !important;
