@@ -118,6 +118,12 @@ offer-product *{
     text-align: center;
     align-content: space-between;
   }
+  .offer-product__label {
+    grid-row: 1/2;
+    width: calc(100% + 20px);
+    margin: 0 -10px;
+    line-height: 40px;
+  }
   .offer-product__subtitle {
     font-size: 2.2rem;
   }
