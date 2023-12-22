@@ -97,13 +97,13 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "7d25f703-16e7-4c2f-be88-f4b5f54a940a": {
