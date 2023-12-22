@@ -169,7 +169,8 @@ offer-product *{
     font-size: 2rem;
     padding: 10px 0;
   }
-  .product-offers__featured-image {
+  .offer-product__featured-image {
+    display: block;
     grid-row: 2/3;
   }
   .offer-product__price {
