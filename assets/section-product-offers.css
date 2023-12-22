@@ -116,11 +116,11 @@ offer-product *{
   height: 2.25rem;
 }
 .offer-product__price {
-  /* grid-row: 3/4; */
   display: grid;
   grid-template-rows: max-content;
   text-align: center;
   font-size: 1.5rem;
+  line-height: 1.2;
 }
 .offer-product__subtitle {
   font-size: 2.2rem;
