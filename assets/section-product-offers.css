@@ -75,10 +75,10 @@ offer-product *{
 }
 .offer-product__button {
   grid-row: 4/5;
-  color: #000!important;
+  color: #000;
   text-shadow: 0 1px 1px rgba(255,255,255,.5);
-  background: #f3ce75!important;
-  background: linear-gradient(to bottom,#f3ce75 0,#edb52f 100%)!important;
+  background: #f3ce75;
+  background: linear-gradient(to bottom,#f3ce75 0,#edb52f 100%);
   font-size: 2.4rem;
   font-weight: 600;
 }
