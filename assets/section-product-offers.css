@@ -42,7 +42,9 @@ offer-product *{
   text-align: center;
   align-content: space-between;
   align-items: center;
+  overflow: hidden;
 }
+
 
 .offer-product > * {
   width: 100%;
