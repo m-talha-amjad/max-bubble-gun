@@ -94,6 +94,14 @@ offer-product *{
 }
 
 
+.product-offers__selection {
+  padding: 40px;
+  color: #434339;
+  background: #efefef;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-top: 0;
+  margin-bottom: -1px;
+}
 
 offer-product-selection {
   display: grid;
