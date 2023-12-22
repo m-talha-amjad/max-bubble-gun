@@ -73,6 +73,7 @@ offer-product *{
   display: grid;
   grid-template-rows: max-content;
   text-align: center;
+  font-size: 1.5rem;
 }
 .offer-product__subtitle {
   font-size: 2.2rem;
@@ -84,10 +85,8 @@ offer-product *{
   font-weight: 400;
   text-decoration: line-through;
   padding-bottom: 5px;
-  font-size: 2.2rem;
 }
 .current-price {
-  font-size: 3.2rem;
   line-height: 1;
 }
 .price-saved {
@@ -96,20 +95,9 @@ offer-product *{
 }
 
 .offer-product__button {
-  grid-row: 4/5;
-  align-self: self-end;
-  color: #000;
-  text-shadow: 0 1px 1px rgba(255,255,255,.5);
-  background: #f3ce75;
-  background: linear-gradient(to bottom,#f3ce75 0,#edb52f 100%);
-  font-size: 2.4rem;
-  font-weight: 600;
-  max-height: 60px;
+  display: none;
 }
-.offer-product:hover .offer-product__button {
-  background: #f4d17e!important;
-  background: linear-gradient(to bottom,#f4d17e 0,#f0c14f 100%)!important;
-}
+
 @media screen and (min-width: 750px) {
   .offer-product {
     padding: 0 10px 25px;
@@ -128,8 +116,51 @@ offer-product *{
     font-size: 2rem;
     padding: 10px 0;
   }
+  .product-offers__featured-image {
+    grid-row: 2/3;
+  }
+  .offer-product__price {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-rows: max-content;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
   .offer-product__subtitle {
     font-size: 2.2rem;
+  }
+  .compare-price {
+    color: #ed1300;
+    font-weight: 400;
+    text-decoration: line-through;
+    padding-bottom: 5px;
+    font-size: 2.2rem;
+  }
+  .current-price {
+    font-size: 3.2rem;
+    line-height: 1;
+  }
+  .price-saved {
+    color: #25ae4e;
+    font-weight: 700;
+  }
+  
+  .offer-product__button {
+    display: block;
+    grid-row: 4/5;
+    align-self: self-end;
+    color: #000;
+    text-shadow: 0 1px 1px rgba(255,255,255,.5);
+    background: #f3ce75;
+    background: linear-gradient(to bottom,#f3ce75 0,#edb52f 100%);
+    font-size: 2.4rem;
+    font-weight: 600;
+    max-height: 60px;
+  }
+  .offer-product:hover .offer-product__button {
+    background: #f4d17e!important;
+    background: linear-gradient(to bottom,#f4d17e 0,#f0c14f 100%)!important;
   }
 }
 
