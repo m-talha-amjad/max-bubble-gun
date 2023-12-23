@@ -85,6 +85,8 @@
                     class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+                    {% else %}
+                    style="padding-bottom: 100%;"
                     {% endif %}
                   >
                   {%- if block.settings.image != blank -%}
