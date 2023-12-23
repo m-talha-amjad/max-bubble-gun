@@ -5,6 +5,12 @@
     display: grid;
     grid-template-columns: 33.33% 66.66%;
   }
+  .rich-text-grid-layout .rich-text__heading {
+    grid-column: 1;
+  }
+  .rich-text-grid-layout .rich-text__text {
+    grid-column: 2;
+  }
 }
 
 @media screen and (min-width: 990px) {
