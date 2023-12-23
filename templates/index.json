@@ -97,16 +97,17 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
+        "animations_reveal_on_scroll": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "217e267f-9971-4396-b993-f2ad87a7b425": {
-      "type": "rich-text",
+    "4f8fab02-d984-415b-80f1-0af3b814d94f": {
+      "type": "rich-text-grid-layout",
       "blocks": {
-        "05a95380-5668-444c-8ccd-e7d802308655": {
+        "template--20701774938135__4f8fab02-d984-415b-80f1-0af3b814d94f-caption-1": {
           "type": "caption",
           "settings": {
             "caption": "Add a tagline",
@@ -114,14 +115,14 @@
             "text_size": "medium"
           }
         },
-        "template--20701774938135__217e267f-9971-4396-b993-f2ad87a7b425-heading-1": {
+        "template--20701774938135__4f8fab02-d984-415b-80f1-0af3b814d94f-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
             "heading_size": "h1"
           }
         },
-        "template--20701774938135__217e267f-9971-4396-b993-f2ad87a7b425-text-1": {
+        "template--20701774938135__4f8fab02-d984-415b-80f1-0af3b814d94f-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
@@ -129,9 +130,9 @@
         }
       },
       "block_order": [
-        "05a95380-5668-444c-8ccd-e7d802308655",
-        "template--20701774938135__217e267f-9971-4396-b993-f2ad87a7b425-heading-1",
-        "template--20701774938135__217e267f-9971-4396-b993-f2ad87a7b425-text-1"
+        "template--20701774938135__4f8fab02-d984-415b-80f1-0af3b814d94f-caption-1",
+        "template--20701774938135__4f8fab02-d984-415b-80f1-0af3b814d94f-heading-1",
+        "template--20701774938135__4f8fab02-d984-415b-80f1-0af3b814d94f-text-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -192,7 +193,7 @@
   "order": [
     "e1f22dd9-00b9-42b0-9e3a-01ae1181f502",
     "6cba0945-22df-40c8-bebb-35b7c6876a5a",
-    "217e267f-9971-4396-b993-f2ad87a7b425",
+    "4f8fab02-d984-415b-80f1-0af3b814d94f",
     "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
   ]
 }
