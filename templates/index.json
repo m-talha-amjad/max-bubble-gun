@@ -154,11 +154,65 @@
         "padding_top": 24,
         "padding_bottom": 0
       }
+    },
+    "6cba0945-22df-40c8-bebb-35b7c6876a5a": {
+      "type": "multicolumn-overlay-text",
+      "blocks": {
+        "template--20701774938135__6cba0945-22df-40c8-bebb-35b7c6876a5a-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Overlay Text Details.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__6cba0945-22df-40c8-bebb-35b7c6876a5a-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Overlay Text Details.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__6cba0945-22df-40c8-bebb-35b7c6876a5a-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Overlay Text Details.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__6cba0945-22df-40c8-bebb-35b7c6876a5a-column-1",
+        "template--20701774938135__6cba0945-22df-40c8-bebb-35b7c6876a5a-column-2",
+        "template--20701774938135__6cba0945-22df-40c8-bebb-35b7c6876a5a-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "e1f22dd9-00b9-42b0-9e3a-01ae1181f502",
     "fc461fee-8bbd-4ed8-b274-cbe9bb481adc",
-    "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a",
+    "6cba0945-22df-40c8-bebb-35b7c6876a5a"
   ]
 }
