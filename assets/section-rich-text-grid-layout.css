@@ -1,5 +1,13 @@
 
-@media screen and (min-width: 750px) and (min-width: 990px) {
+@media screen and (min-width: 750px) {
+  .rich-text-grid-layout .rich-text__blocks {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 33.33% 66.66%;
+  }
+}
+
+@media screen and (min-width: 990px) {
   .rich-text-grid-layout .rich-text__blocks {
     max-width: 100%;
   }
