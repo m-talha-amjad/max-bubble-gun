@@ -23,6 +23,9 @@
     padding-left: 3.2rem;
     margin-top: 0;
   }
+  .rich-text-grid-layout .rich-text__buttons {
+    grid-column: 1;
+  }
 }
 
 @media screen and (min-width: 990px) {
