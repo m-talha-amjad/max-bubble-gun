@@ -3557,7 +3557,7 @@
       }
     },
     "multicolumn-overlay-text": {
-      "name": "Multicolumn Overlay Text",
+      "name": "Multicolumn Second",
       "settings": {
         "title": {
           "label": "Heading"
@@ -3566,7 +3566,7 @@
       "blocks": {
       },
       "presets": {
-        "name": "Multicolumn"
+        "name": "Multicolumn Second"
       }
     }
   }
