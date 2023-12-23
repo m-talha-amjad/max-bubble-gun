@@ -3555,6 +3555,19 @@
       "presets": {
         "name": "Product Offers"
       }
+    },
+    "multicolumn-overlay-text": {
+      "name": "Multicolumn Overlay Text",
+      "settings": {
+        "title": {
+          "label": "Heading"
+        }
+      },
+      "blocks": {
+      },
+      "presets": {
+        "name": "Multicolumn"
+      }
     }
   }
 }
