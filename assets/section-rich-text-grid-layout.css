@@ -10,6 +10,7 @@
   }
   .rich-text-grid-layout .rich-text__text {
     grid-column: 2;
+    grid-row: 1/3;
   }
 }
 
