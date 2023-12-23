@@ -1,3 +1,9 @@
+.multicolumn-overlay-text .grid {
+  --grid-desktop-horizontal-spacing: 0px;
+  --grid-desktop-vertical-spacing: 0px;
+  --grid-mobile-horizontal-spacing: 0px;
+  --grid-mobile-vertical-spacing: 0px;
+}
 .multicolumn-overlay-text .multicolumn-card__info {
   position: absolute;
   top: 50%;
