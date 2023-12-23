@@ -5,6 +5,9 @@
     display: grid;
     grid-template-columns: 33.33% 66.66%;
   }
+  .rich-text-grid-layout .rich-text__blocks>*+* {
+    margin-top: 1rem;
+  }
   .rich-text-grid-layout .rich-text__heading {
     grid-column: 1;
   }
