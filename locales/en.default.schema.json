@@ -3559,14 +3559,27 @@
     "multicolumn-overlay-text": {
       "name": "Multicolumn Overlay Text",
       "settings": {
-        "title": {
-          "label": "Heading"
+        "animations_reveal_on_scroll": {
+          "label": "Animations Reveal On Scroll"
         }
       },
       "blocks": {
       },
       "presets": {
         "name": "Multicolumn Overlay Text"
+      }
+    },
+    "rich-text-grid-layout": {
+      "name": "Rich text Grid Layout",
+      "settings": {
+        "full_width": {
+          "label": "Make section full width"
+        }
+      },
+      "blocks": {
+      },
+      "presets": {
+        "name": "Rich text Grid Layout"
       }
     }
   }
