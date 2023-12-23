@@ -8,6 +8,11 @@
   .rich-text-grid-layout .rich-text__blocks>*+* {
     margin-top: 1rem;
   }
+  .rich-text-grid-layout .rich-text__caption {
+    position: relative;
+    padding-bottom: 1.7rem;
+    margin-bottom: 1rem;
+  }
   .rich-text-grid-layout .rich-text__heading {
     grid-column: 1;
   }
