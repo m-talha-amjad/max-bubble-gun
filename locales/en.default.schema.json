@@ -3581,6 +3581,27 @@
       "presets": {
         "name": "Rich text Grid Layout"
       }
+    },
+    "multirow-with-video": {
+      "name": "Multirow with Video",
+      "settings": {
+        "image": {
+          "label": "Image"
+        }
+      },
+      "blocks": {
+        "row": {
+          "name": "Row",
+          "settings": {
+            "image": {
+              "label": "Image"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Multirow with Video"
+      }
     }
   }
 }
