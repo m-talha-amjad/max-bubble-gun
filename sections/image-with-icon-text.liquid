@@ -101,13 +101,21 @@
                   {%- endif -%}
                   {%- when 'icon_text_grid' -%}
                     <div class="icon-with-text">
-                      <div class="icon-with-text__icon">
-                        <img src="{{ block.settings.icon | image_url: width: 100  }}" width="100" height="auto" loading="lazy" alt="{{ block.settings.icon.alt }}">
-                      </div>
-                      <div class="icon-with-text__content">
-                        <h3>{{ block.settings.heading }}</h3>
-                        <p>{{ block.settings.text }}</p>
-                      </div>
+                      {% if block.settings.icon != blank %}
+                        <div class="icon-with-text__icon">
+                          <img src="{{ block.settings.icon | image_url: width: 100  }}" width="100" height="auto" loading="lazy" alt="{{ block.settings.icon.alt }}">
+                        </div>
+                      {% endif %}
+                      {% if block.settings.heading or block.settings.text != blank %}
+                        <div class="icon-with-text__content">
+                          {% if block.settings.heading %}
+                            <h3>{{ block.settings.heading }}</h3>
+                          {% endif %}
+                          {% if block.settings.text != blank %}
+                            <p>{{ block.settings.text }}</p>
+                          {% endif %}
+                        </div>
+                      {% endif %}
                     </div>
               {%- endcase -%}
             {%- endfor -%}
