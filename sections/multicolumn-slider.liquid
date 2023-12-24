@@ -31,15 +31,13 @@
     {% endif %}
   >
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+      <div class="title-wrapper-align-{{ section.settings.text_alignment }} title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </h2>
-        {%- if section.settings.button_label != blank and show_mobile_slider -%}
-          <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
-            {{- section.settings.button_label | escape -}}
-          </a>
-        {%- endif -%}
+        {% if section.settings.subtitle != blank %}
+          <div class="subtitle">{{ section.settings.subtitle }}</div> 
+        {% endif %}
       </div>
     {%- endunless -%}
     <slider-component class="slider-mobile-gutter">
@@ -83,7 +81,7 @@
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
                   <div
                     class="media media--transparent media--{{ section.settings.image_ratio }}"
-                    {% if section.settings.image_ratio == 'adapt' %}
+                    {% if section.settings.image_ratio == 'adapt' and block.settings.image != blank %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% else %}
                       style="padding-bottom: 100%;"
