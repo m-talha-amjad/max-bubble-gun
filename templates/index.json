@@ -390,6 +390,61 @@
         "padding_top": 24,
         "padding_bottom": 0
       }
+    },
+    "e70afe67-3d59-4de1-887a-089c77c3b93e": {
+      "type": "image-with-icon-text",
+      "blocks": {
+        "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "04208916-874b-404a-9123-70b16255c5c6": {
+          "type": "icon_text_grid",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-rechargable-01.svg",
+            "heading": "RECHARGEABLE",
+            "text": "No batteries to replace"
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-heading-1",
+        "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-text-1",
+        "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-button-1",
+        "04208916-874b-404a-9123-70b16255c5c6"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -399,6 +454,7 @@
     "93a6a1bc-bfb2-48a7-92f3-60f4e9041780",
     "d1576d70-a294-4fe1-9050-dc300b237705",
     "29c55916-913c-4a3e-8a5c-fea0dbd0ca3d",
-    "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a",
+    "e70afe67-3d59-4de1-887a-089c77c3b93e"
   ]
 }
