@@ -1,0 +1,5 @@
+.multirow-with-video video {
+  max-width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
