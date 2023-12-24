@@ -4,3 +4,9 @@
   --grid-mobile-horizontal-spacing: 0px;
   --grid-mobile-vertical-spacing: 0px;
 }
+
+.multicolumn-card {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  align-items: center;
+}
