@@ -10,9 +10,7 @@
   grid-template-columns: 8rem 1fr;
   align-items: center;
 }
-.multicolumn-icon-text-grid .multicolumn-card__info {
-  padding: 0 1rem;
-}
+
 .multicolumn-icon-text-grid .multicolumn-card__info>:nth-child(2) {
   margin-top: 0;
 }
