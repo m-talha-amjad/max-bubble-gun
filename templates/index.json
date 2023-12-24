@@ -423,13 +423,31 @@
             "heading": "RECHARGEABLE",
             "text": "No batteries to replace"
           }
+        },
+        "034e914d-ec1c-4b60-9fc3-dc1931fe983b": {
+          "type": "icon_text_grid",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-rechargable-01.svg",
+            "heading": "RECHARGEABLE",
+            "text": "No batteries to replace"
+          }
+        },
+        "5346b2af-07d3-4490-a457-704a7983a61f": {
+          "type": "icon_text_grid",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon-rechargable-01.svg",
+            "heading": "RECHARGEABLE",
+            "text": "No batteries to replace"
+          }
         }
       },
       "block_order": [
         "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-heading-1",
         "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-text-1",
         "template--20701774938135__e70afe67-3d59-4de1-887a-089c77c3b93e-button-1",
-        "04208916-874b-404a-9123-70b16255c5c6"
+        "04208916-874b-404a-9123-70b16255c5c6",
+        "034e914d-ec1c-4b60-9fc3-dc1931fe983b",
+        "5346b2af-07d3-4490-a457-704a7983a61f"
       ],
       "settings": {
         "height": "adapt",
