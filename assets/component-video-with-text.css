@@ -415,3 +415,25 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+
+
+/* == M Talha Amjad ==Start== */
+/* ========================== */
+/* #region Overrides */
+
+/* #endregion Overrides End*/
+/* #region Custom Overrides */
+
+/* #endregion Custom Overrides End*/
+/* #region Custom */
+.video-with-text__media-item {
+  padding-left: 6rem;
+  padding-right: 0rem;
+}
+.video-with-text__grid--reverse .video-with-text__media-item {
+  padding-left: 0rem;
+  padding-right: 6rem;
+}
+/* #endregion Custom End*/
+/* == M Talha Amjad ==End== */
+/* ======================== */
