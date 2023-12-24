@@ -99,6 +99,16 @@
                       {{ block.settings.button_label | escape }}
                     </a>
                   {%- endif -%}
+                  {%- when 'icon_text_grid' -%}
+                    <div class="icon-with-text">
+                      <div class="icon-with-text__icon">
+                        <img src="{{ block.settings.icon | image_url: width: 100  }}" width="100" height="auto" loading="lazy" alt="{{ block.settings.icon.alt }}">
+                      </div>
+                      <div class="icon-with-text__content">
+                        <h3>{{ block.settings.heading }}</h3>
+                        <p>{{ block.settings.text }}</p>
+                      </div>
+                    </div>
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -458,6 +468,30 @@
           "id": "button_style_secondary",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        }
+      ]
+    },
+    {
+      "type": "icon_text_grid",
+      "name": "t:sections.image-with-icon-text.blocks.icon_text_grid.name",
+      "limit": 9,
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "t:sections.image-with-icon-text.blocks.icon_text_grid.settings.icon.label",
+          "id": "icon"
+        },
+        {
+          "type": "text",
+          "label": "t:sections.image-with-icon-text.blocks.icon_text_grid.settings.heading.label",
+          "id": "heading",
+          "default": "Icon Heading"
+        },
+        {
+          "type": "text",
+          "label": "t:sections.image-with-icon-text.blocks.icon_text_grid.settings.text.label",
+          "id": "text",
+          "default": "Add Text related to Icon"
         }
       ]
     }
