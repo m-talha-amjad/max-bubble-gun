@@ -14,7 +14,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Pair text with a video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "template--20701774938135__e1f22dd9-00b9-42b0-9e3a-01ae1181f502-button-1": {
