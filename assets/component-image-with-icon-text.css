@@ -24,11 +24,14 @@
 .icon-with-text__icon img {
   width: 100%;
 }
-
+.icon-with-text__content {
+  padding: 0 1rem;
+}
 .icon-with-text__content h3 {
   margin: 0;
 }
 .icon-with-text__content h3 ~ p {
   margin: 0;
 }
+
 /* #endregion icon with text */
