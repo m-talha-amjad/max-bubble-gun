@@ -143,52 +143,6 @@
         "padding_bottom": 52
       }
     },
-    "7d25f703-16e7-4c2f-be88-f4b5f54a940a": {
-      "type": "custom-product-offers",
-      "blocks": {
-        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-1": {
-          "type": "product_offer",
-          "settings": {
-            "product": "1-max-bubble-gun",
-            "title": "",
-            "offer_label_color": "rgba(0,0,0,0)",
-            "link_label": "Order Now"
-          }
-        },
-        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-2": {
-          "type": "product_offer",
-          "settings": {
-            "product": "3-max-bubble-guns",
-            "title": "Most Popular",
-            "offer_label_color": "#ed1300",
-            "link_label": "Order Now"
-          }
-        },
-        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3": {
-          "type": "product_offer",
-          "settings": {
-            "product": "5-max-bubble-guns",
-            "title": "Best Deal",
-            "offer_label_color": "#25ae4e",
-            "link_label": "Order Now"
-          }
-        }
-      },
-      "block_order": [
-        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-1",
-        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-2",
-        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3"
-      ],
-      "settings": {
-        "title": "Get Max Bubble Gun Today!",
-        "heading_size": "h1",
-        "subtitle": "<p>Give customers details about the custom offers.<\/p>",
-        "text_alignment": "center",
-        "color_scheme": "background-2",
-        "padding_top": 24,
-        "padding_bottom": 0
-      }
-    },
     "54b36bd6-d6e8-49f6-8a84-5348cd4321b6": {
       "type": "multirow-with-video",
       "blocks": {
@@ -247,13 +201,59 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a": {
+      "type": "custom-product-offers",
+      "blocks": {
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-1": {
+          "type": "product_offer",
+          "settings": {
+            "product": "1-max-bubble-gun",
+            "title": "",
+            "offer_label_color": "rgba(0,0,0,0)",
+            "link_label": "Order Now"
+          }
+        },
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-2": {
+          "type": "product_offer",
+          "settings": {
+            "product": "3-max-bubble-guns",
+            "title": "Most Popular",
+            "offer_label_color": "#ed1300",
+            "link_label": "Order Now"
+          }
+        },
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3": {
+          "type": "product_offer",
+          "settings": {
+            "product": "5-max-bubble-guns",
+            "title": "Best Deal",
+            "offer_label_color": "#25ae4e",
+            "link_label": "Order Now"
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-1",
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-2",
+        "template--20701774938135__7d25f703-16e7-4c2f-be88-f4b5f54a940a-product_offer-3"
+      ],
+      "settings": {
+        "title": "Get Max Bubble Gun Today!",
+        "heading_size": "h1",
+        "subtitle": "<p>Give customers details about the custom offers.<\/p>",
+        "text_alignment": "center",
+        "color_scheme": "background-2",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "e1f22dd9-00b9-42b0-9e3a-01ae1181f502",
     "6cba0945-22df-40c8-bebb-35b7c6876a5a",
     "4f8fab02-d984-415b-80f1-0af3b814d94f",
-    "7d25f703-16e7-4c2f-be88-f4b5f54a940a",
-    "54b36bd6-d6e8-49f6-8a84-5348cd4321b6"
+    "54b36bd6-d6e8-49f6-8a84-5348cd4321b6",
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
   ]
 }
