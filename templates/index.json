@@ -188,12 +188,72 @@
         "padding_top": 24,
         "padding_bottom": 0
       }
+    },
+    "54b36bd6-d6e8-49f6-8a84-5348cd4321b6": {
+      "type": "multirow-with-video",
+      "blocks": {
+        "template--20701774938135__54b36bd6-d6e8-49f6-8a84-5348cd4321b6-row-1": {
+          "type": "row",
+          "settings": {
+            "enable_video_looping": true,
+            "video": "shopify:\/\/files\/videos\/How to Use Biggest Bubble Gun Machine 2021_21dc1d75-2705-4cb6-ab2f-3c7fc0f7972d.mp4",
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--20701774938135__54b36bd6-d6e8-49f6-8a84-5348cd4321b6-row-2": {
+          "type": "row",
+          "settings": {
+            "enable_video_looping": true,
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--20701774938135__54b36bd6-d6e8-49f6-8a84-5348cd4321b6-row-3": {
+          "type": "row",
+          "settings": {
+            "enable_video_looping": true,
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__54b36bd6-d6e8-49f6-8a84-5348cd4321b6-row-1",
+        "template--20701774938135__54b36bd6-d6e8-49f6-8a84-5348cd4321b6-row-2",
+        "template--20701774938135__54b36bd6-d6e8-49f6-8a84-5348cd4321b6-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "e1f22dd9-00b9-42b0-9e3a-01ae1181f502",
     "6cba0945-22df-40c8-bebb-35b7c6876a5a",
     "4f8fab02-d984-415b-80f1-0af3b814d94f",
-    "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a",
+    "54b36bd6-d6e8-49f6-8a84-5348cd4321b6"
   ]
 }
