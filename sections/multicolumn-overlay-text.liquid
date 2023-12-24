@@ -124,6 +124,13 @@
                   </div>
                 </div>
               <div class="multicolumn-card__info">
+                {% if block.settings.caption %}
+                  <p
+                    class="custom__caption multicolumn__caption"
+                  >
+                    {{ block.settings.caption | escape }}
+                  </p>
+                {% endif %}
                 {%- if block.settings.title != blank -%}
                   <h3 class="inline-richtext">{{ block.settings.title }}</h3>
                 {%- endif -%}
@@ -394,6 +401,12 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "caption",
+          "default": "Add a tagline",
+          "label": "t:sections.rich-text.blocks.caption.settings.text.label"
         },
         {
           "type": "inline_richtext",
