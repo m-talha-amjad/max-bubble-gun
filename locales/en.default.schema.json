@@ -3628,6 +3628,19 @@
       "presets": {
         "name": "Multicolumn Slider"
       }
+    },
+    "image-with-icon-text": {
+      "name": "Image with Icons Text",
+      "settings": {
+        "animations_reveal_on_scroll": {
+          "label": "Animations Reveal On Scroll"
+        }
+      },
+      "blocks": {
+      },
+      "presets": {
+        "name": "Image with Icons Text"
+      }
     }
   }
 }
