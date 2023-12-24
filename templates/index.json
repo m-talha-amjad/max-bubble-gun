@@ -143,6 +143,62 @@
         "padding_bottom": 52
       }
     },
+    "c7cb7916-e4af-4496-8756-605965fcdbae": {
+      "type": "multirow-with-video",
+      "blocks": {
+        "template--20701774938135__c7cb7916-e4af-4496-8756-605965fcdbae-row-1": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--20701774938135__c7cb7916-e4af-4496-8756-605965fcdbae-row-2": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--20701774938135__c7cb7916-e4af-4496-8756-605965fcdbae-row-3": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__c7cb7916-e4af-4496-8756-605965fcdbae-row-1",
+        "template--20701774938135__c7cb7916-e4af-4496-8756-605965fcdbae-row-2",
+        "template--20701774938135__c7cb7916-e4af-4496-8756-605965fcdbae-row-3"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/How to Use Biggest Bubble Gun Machine 2021_21dc1d75-2705-4cb6-ab2f-3c7fc0f7972d.mp4",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7d25f703-16e7-4c2f-be88-f4b5f54a940a": {
       "type": "custom-product-offers",
       "blocks": {
@@ -194,6 +250,7 @@
     "e1f22dd9-00b9-42b0-9e3a-01ae1181f502",
     "6cba0945-22df-40c8-bebb-35b7c6876a5a",
     "4f8fab02-d984-415b-80f1-0af3b814d94f",
+    "c7cb7916-e4af-4496-8756-605965fcdbae",
     "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
   ]
 }
