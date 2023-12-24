@@ -4,13 +4,19 @@
   --grid-mobile-horizontal-spacing: 0px;
   --grid-mobile-vertical-spacing: 0px;
 }
-
 .multicolumn-icon-text-grid .multicolumn-card {
   display: grid;
-  grid-template-columns: 8rem 1fr;
   align-items: center;
 }
-
+.multicolumn-icon-text-grid .multicolumn-card__info {
+  padding: 0 1rem;
+}
 .multicolumn-icon-text-grid .multicolumn-card__info>:nth-child(2) {
   margin-top: 0;
+}
+
+@media screen and (min-width:750px) {
+  .multicolumn-icon-text-grid .multicolumn-card {
+    grid-template-columns: 8rem 1fr;
+  }
 }
