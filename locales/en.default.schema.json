@@ -3637,6 +3637,20 @@
         }
       },
       "blocks": {
+        "icon_text_grid": {
+          "name": "Icon Text Grid",
+          "settings": {
+            "icon": {
+              "label": "Icon"
+            },
+            "heading": {
+              "label": "Heading"
+            },
+            "text": {
+              "label": "Text"
+            }
+          }
+        }
       },
       "presets": {
         "name": "Image with Icons Text"
