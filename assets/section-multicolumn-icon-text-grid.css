@@ -24,4 +24,8 @@
   .multicolumn-icon-text-grid .multicolumn-card {
     grid-template-columns: 8rem 1fr;
   }
+  .multicolumn-icon-text-grid .multicolumn-card__image-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
