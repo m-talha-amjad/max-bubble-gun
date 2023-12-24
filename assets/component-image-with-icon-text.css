@@ -10,3 +10,20 @@
 .image-with-icon-text__content .icon-with-text {
   grid-column: span 1;
 }
+
+
+
+/* #region icon with text */
+.icon-with-text {
+  display: grid;
+  grid-template-columns: 80px auto;
+}
+.icon-with-text__icon {
+  padding: 1rem;
+}
+.icon-with-text__icon img {
+  width: 100%;
+}
+
+
+/* #endregion icon with text */
