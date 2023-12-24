@@ -3,3 +3,7 @@
   object-fit: cover;
   height: 100%;
 }
+.multirow-with-video .multirow__inner {
+  --grid-desktop-vertical-spacing: 0px;
+  --grid-mobile-vertical-spacing: 0;
+}
