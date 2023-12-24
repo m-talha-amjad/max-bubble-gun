@@ -3615,6 +3615,19 @@
       "presets": {
         "name": "Multicolumn Icon Text"
       }
+    },
+    "multicolumn-slider": {
+      "name": "Multicolumn Slider",
+      "settings": {
+        "animations_reveal_on_scroll": {
+          "label": "Animations Reveal On Scroll"
+        }
+      },
+      "blocks": {
+      },
+      "presets": {
+        "name": "Multicolumn Slider"
+      }
     }
   }
 }
