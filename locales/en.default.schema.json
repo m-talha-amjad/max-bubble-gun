@@ -3602,6 +3602,19 @@
       "presets": {
         "name": "Multirow with Video"
       }
+    },
+    "multicolumn-icon-text-grid": {
+      "name": "Multicolumn Icon Text",
+      "settings": {
+        "animations_reveal_on_scroll": {
+          "label": "Animations Reveal On Scroll"
+        }
+      },
+      "blocks": {
+      },
+      "presets": {
+        "name": "Multicolumn Icon Text"
+      }
     }
   }
 }
