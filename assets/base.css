@@ -3608,6 +3608,27 @@ body.gradient {
   margin: 0 auto;
   background: #fff;
 }
+
+
+
+.custom__caption {
+  position: relative;
+  padding-bottom: 1.7rem;
+  margin-bottom: 1rem;
+}
+.custom__caption:after {
+  content: '';
+  border-top: 2.5px solid #857550;
+  width: 30px;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
 /* #endregion Custom End*/
 /* == M Talha Amjad ==End== */
 /* ======================== */
