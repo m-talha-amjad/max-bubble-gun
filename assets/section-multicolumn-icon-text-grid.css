@@ -1,0 +1,6 @@
+.multicolumn-icon-text-grid .grid {
+  --grid-desktop-horizontal-spacing: 0px;
+  --grid-desktop-vertical-spacing: 0px;
+  --grid-mobile-horizontal-spacing: 0px;
+  --grid-mobile-vertical-spacing: 0px;
+}
