@@ -50,6 +50,62 @@
         "padding_bottom": 36
       }
     },
+    "a59a2efd-9c1e-41ee-be3c-7ddef7d2db10": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20701774938135__a59a2efd-9c1e-41ee-be3c-7ddef7d2db10-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-rechargable-01.svg",
+            "title": "Column",
+            "text": "<p>Pair text with an icon.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "850fdbb8-7032-4583-99b4-7c9c80659bc0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-rechargable-01.svg",
+            "title": "Column",
+            "text": "<p>Pair text with an icon.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7859749c-5e87-4edf-bacd-f0fcdfbe1aca": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-rechargable-01.svg",
+            "title": "Column",
+            "text": "<p>Pair text with an icon.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__a59a2efd-9c1e-41ee-be3c-7ddef7d2db10-column-1",
+        "850fdbb8-7032-4583-99b4-7c9c80659bc0",
+        "7859749c-5e87-4edf-bacd-f0fcdfbe1aca"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "4f8fab02-d984-415b-80f1-0af3b814d94f": {
       "type": "rich-text-grid-layout",
       "blocks": {
@@ -254,6 +310,7 @@
   },
   "order": [
     "e1f22dd9-00b9-42b0-9e3a-01ae1181f502",
+    "a59a2efd-9c1e-41ee-be3c-7ddef7d2db10",
     "4f8fab02-d984-415b-80f1-0af3b814d94f",
     "54b36bd6-d6e8-49f6-8a84-5348cd4321b6",
     "93a6a1bc-bfb2-48a7-92f3-60f4e9041780",
