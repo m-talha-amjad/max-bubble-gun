@@ -153,7 +153,7 @@
         {%- endfor -%}
       </ul>
 
-      {%- if show_mobile_slider -%}
+      {% if show_mobile_slider or show_desktop_slider %}
         <div class="slider-buttons no-js-hidden medium-hide">
           <button
             type="button"
