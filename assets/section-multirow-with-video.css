@@ -7,3 +7,8 @@
   --grid-desktop-vertical-spacing: 0px;
   --grid-mobile-vertical-spacing: 0;
 }
+@media screen and (min-width: 990px) {
+  .multirow-with-video .image-with-text__content {
+    padding: 5rem 6rem 5rem 6rem;
+  }
+}
