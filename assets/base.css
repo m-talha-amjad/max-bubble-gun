@@ -3610,6 +3610,7 @@ body.gradient {
 }
 
 
+/* #region cutsom caption */
 
 .custom__caption {
   position: relative;
@@ -3626,6 +3627,7 @@ body.gradient {
   left: 0;
 }
 
+/* #endregion cutsom caption */
 
 
 
