@@ -1,3 +1,8 @@
+
+
+.multicolumn-icon-text-grid {
+  padding: 2rem 3rem;
+}
 .multicolumn-icon-text-grid .grid {
   --grid-desktop-horizontal-spacing: 0px;
   --grid-desktop-vertical-spacing: 0px;
