@@ -147,8 +147,20 @@
             </div>
           </swiper-slide>
         {%- endfor -%}
-        <swiper-button-prev></swiper-button-prev>
-        <swiper-button-next></swiper-button-next>
+        <swiper-button-prev
+            type="button"
+            name="next"
+            aria-label="{{ 'general.slider.previous_slide' | t }}"
+        >
+          {% render 'icon-caret' %}
+        </swiper-button-prev>
+        <swiper-button-next
+            type="button"
+            name="next"
+            aria-label="{{ 'general.slider.next_slide' | t }}"
+        >
+        {% render 'icon-caret' %}
+        </swiper-button-next>
     </swiper-container>
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
