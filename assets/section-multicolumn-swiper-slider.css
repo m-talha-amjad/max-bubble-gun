@@ -3,12 +3,13 @@
   transform: rotate(90deg);
 }
 
-.swiper-button-prev-custom, 
-.swiper-button-next-custom {
-  top: 50%; 
+.swiper-button-prev-custom, .swiper-button-next-custom {
+  position: absolute;
+  top: 50%;
   width: 32px;
   height: 32px;
-  margin-top: -16px;  
+  margin-top: -16px;
+  z-index: 2;
 }
 
 .swiper-button-prev-custom { 
