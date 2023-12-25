@@ -29,6 +29,7 @@
 }
 .icon-with-text__content h3 {
   margin: 0;
+  letter-spacing: normal;
 }
 .icon-with-text__content h3 ~ p {
   margin: 0;
