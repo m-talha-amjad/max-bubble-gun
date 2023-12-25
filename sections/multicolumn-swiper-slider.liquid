@@ -49,8 +49,7 @@
         {% endif %}
       </div>
     {%- endunless -%}
-    <div class="swiper ">
-
+    <div class="swiper multicolumn-swiper">
         {%- liquid
           assign highest_ratio = 0
           for block in section.blocks
@@ -185,7 +184,7 @@
     </div>
   </div>
 </div>
-
+<script src="{{ 'multicolumn-swiper-slider-init.js' | asset_url}}" defer></script>
 
 {% schema %}
 {
