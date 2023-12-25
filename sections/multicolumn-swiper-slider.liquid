@@ -1,6 +1,7 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {% comment %} <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css"> {% endcomment %}
 {{ 'section-multicolumn-swiper-slider.css' | asset_url | stylesheet_tag }}
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js" defer></script>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -166,7 +167,6 @@
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
 {% schema %}
 {
