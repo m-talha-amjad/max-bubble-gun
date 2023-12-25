@@ -146,7 +146,8 @@
             </div>
           </swiper-slide>
         {%- endfor -%}
-
+        <swiper-button-prev></swiper-button-prev>
+        <swiper-button-next></swiper-button-next>
     </swiper-container>
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
