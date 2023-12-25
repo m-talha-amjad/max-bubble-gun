@@ -3650,6 +3650,19 @@
         "name": "Multicolumn Slider"
       }
     },
+    "multicolumn-swiper-slider": {
+      "name": "Multicolumn Swiper Slider",
+      "settings": {
+        "animations_reveal_on_scroll": {
+          "label": "Animations Reveal On Scroll"
+        }
+      },
+      "blocks": {
+      },
+      "presets": {
+        "name": "Multicolumn Swiper Slider"
+      }
+    },
     "image-with-icon-text": {
       "name": "Image with Icons Text",
       "settings": {
