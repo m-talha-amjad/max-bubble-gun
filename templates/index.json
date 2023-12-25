@@ -442,7 +442,6 @@
         },
         "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-4": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "",
             "text": "",
@@ -452,7 +451,6 @@
         },
         "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-5": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "title": "",
             "text": "",
