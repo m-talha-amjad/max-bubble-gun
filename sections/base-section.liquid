@@ -65,17 +65,31 @@ Dawn 11.0
       data-cascade
     {% endif %}
   >
-  {%- unless section.settings.title == blank -%}
-    <div class="title-wrapper--align-{{ section.settings.text_alignment }} title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-      <h2 class="title inline-richtext {{ section.settings.heading_size }}">
-        {{ section.settings.title }}
-      </h2>
-      {% if section.settings.subtitle != blank %}
-        <div class="subtitle">{{ section.settings.subtitle }}</div> 
-      {% endif %}
-    </div>
-  {%- endunless -%}
+    {%- unless section.settings.title == blank -%}
+      <div class="title-wrapper--align-{{ section.settings.text_alignment }} title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.title }}
+        </h2>
+        {% if section.settings.subtitle != blank %}
+          <div class="subtitle">{{ section.settings.subtitle }}</div> 
+        {% endif %}
+      </div>
+    {%- endunless -%}
 
+    <div class="center">
+      {%- if section.settings.button_label != blank -%}
+        <a
+          class="button button--primary"
+          {% if section.settings.button_link == blank %}
+            role="link" aria-disabled="true"
+          {% else %}
+            href="{{ section.settings.button_link }}"
+          {% endif %}
+        >
+          {{ section.settings.button_label | escape }}
+        </a>
+      {%- endif -%}
+    </div>
   </div>
 </div>
 
@@ -128,18 +142,29 @@ Dawn 11.0
       "default": "left",
       "options": [
         {
-          "label": "Left",
+          "label": "t:sections.base_section.settings.text_alignment.options__1.label",
           "value": "left"
         },
         {
-          "label": "Center",
+          "label": "t:sections.base_section.settings.text_alignment.options__2.label",
           "value": "center"
         },
         {
-          "label": "Right",
+          "label": "t:sections.base_section.settings.text_alignment.options__3.label",
           "value": "right"
         }
       ]
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "Button label",
+      "label": "t:sections.base_section.settings.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.base_section.settings.button_link.label"
     },
     {
       "type": "color_scheme",
