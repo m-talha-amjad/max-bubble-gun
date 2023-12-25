@@ -1,7 +1,4 @@
 
-.swiper-button-prev-custom .icon {
-  transform: rotate(90deg);
-}
 
 .swiper-button-prev-custom, .swiper-button-next-custom {
   position: absolute;
@@ -18,4 +15,10 @@
 
 .swiper-button-next-custom {
   right: 16px;  
+}
+.swiper-button-prev-custom .icon {
+  transform: rotate(90deg);
+}
+.swiper-button-next-custom .icon {
+  transform: rotate(270deg);
 }
