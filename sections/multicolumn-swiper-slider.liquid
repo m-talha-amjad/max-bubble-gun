@@ -58,7 +58,7 @@
             endif
           endfor
         -%}
-        <div class="swiper-wrapper grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
+        <div class="swiper-wrapper grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
           {%- for block in section.blocks -%}
             {%- assign empty_column = '' -%}
             {%- if block.settings.image == blank
