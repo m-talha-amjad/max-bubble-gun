@@ -473,7 +473,7 @@
         "text_alignment": "center",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "full_width": false,
         "column_alignment": "left",
         "background_style": "primary",
