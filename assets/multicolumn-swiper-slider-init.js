@@ -26,8 +26,8 @@ multicolumnDesktopSwiper.forEach(swiperEl => {
       el: '.swiper-pagination',
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next-custom',
+      prevEl: '.swiper-button-prev-custom',
     }
   });
 
@@ -49,8 +49,8 @@ multicolumnMobileSwiper.forEach(swiperEl => {
       el: '.swiper-pagination',
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.swiper-button-next-custom',
+      prevEl: '.swiper-button-prev-custom',
     }
   });
 
