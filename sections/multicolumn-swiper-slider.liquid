@@ -47,7 +47,7 @@
         {% endif %}
       </div>
     {%- endunless -%}
-    <swiper-container class=" grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop "  slides-per-view="{{ section.settings.columns_desktop }}" space-between="10" speed="500" loop="true">
+    <swiper-container class=" grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop "  slides-per-view="{{ section.settings.columns_desktop }}"  navigation="true" pagination="true" space-between="10" speed="500" loop="true">
 
         {%- liquid
           assign highest_ratio = 0
@@ -147,7 +147,6 @@
             </div>
           </swiper-slide>
         {%- endfor -%}
-        <div class="swiper-pagination"></div>
         <swiper-button-prev
             type="button"
             name="next"
