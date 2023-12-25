@@ -18,10 +18,11 @@
 /* #region icon with text */
 .icon-with-text {
   display: grid;
-  grid-template-columns: 80px auto;
+  grid-template-columns: auto auto;
 }
 .icon-with-text__icon {
   padding: 1rem;
+  text-align: center;
 }
 .icon-with-text__icon img {
   width: 100%;
@@ -36,5 +37,9 @@
 .icon-with-text__content h3 ~ p {
   margin: 0;
 }
-
+@media screen and (min-width: 750px) {
+  .icon-with-text {
+    grid-template-columns: 80px auto;
+  }
+}
 /* #endregion icon with text */
