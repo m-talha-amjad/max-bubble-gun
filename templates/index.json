@@ -455,6 +455,83 @@
         "padding_top": 24,
         "padding_bottom": 0
       }
+    },
+    "655343c8-5861-4b3d-9d1e-fad831f7dc19": {
+      "type": "multicolumn-swiper-slider",
+      "blocks": {
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-5": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-1",
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-2",
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-3",
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-4",
+        "template--20701774938135__655343c8-5861-4b3d-9d1e-fad831f7dc19-column-5"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "subtitle": "<p>Give customers details about the section.<\/p>",
+        "text_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "full_width": false,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "enable_desktop_slider": true,
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -465,6 +542,7 @@
     "d1576d70-a294-4fe1-9050-dc300b237705",
     "29c55916-913c-4a3e-8a5c-fea0dbd0ca3d",
     "e70afe67-3d59-4de1-887a-089c77c3b93e",
-    "7d25f703-16e7-4c2f-be88-f4b5f54a940a"
+    "7d25f703-16e7-4c2f-be88-f4b5f54a940a",
+    "655343c8-5861-4b3d-9d1e-fad831f7dc19"
   ]
 }
