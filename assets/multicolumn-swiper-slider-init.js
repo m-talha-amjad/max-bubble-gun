@@ -2,7 +2,17 @@
 const multicolumnDesktopSwiper = document.querySelectorAll('.multicolumn-swiper-desktop');
 
 multicolumnDesktopSwiper.forEach(swiperEl => {
+  if(window.innerWidth > 750) {
 
+    const slides = swiperEl.querySelectorAll('swiper-slide');
+
+    const desktopCount = swiperEl.getAttribute('data-desktop-column-count');
+
+    if(slides.length === Number(desktopCount)) {
+      return; 
+    }
+
+  }
   const desktopCount = swiperEl.querySelector(".swiper-wrapper").getAttribute('data-desktop-column-count');
   const mobileCount = swiperEl.querySelector(".swiper-wrapper").getAttribute('data-mobile-column-count');
   console.log(desktopCount);
