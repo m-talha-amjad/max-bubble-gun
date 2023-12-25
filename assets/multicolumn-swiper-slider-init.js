@@ -42,7 +42,7 @@ multicolumnMobileSwiper.forEach(swiperEl => {
   console.log(mobileCount);
   console.log("mobileCount");
   const swiper = new Swiper(swiperEl, {
-    slidesPerView: mobileCount,
+    slidesPerView: Number(mobileCount),
     spaceBetween: 10,
     loop: true,
     pagination: {
