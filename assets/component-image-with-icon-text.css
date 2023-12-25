@@ -1,14 +1,14 @@
 
 
-.image-with-icon-text__content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.image-with-icon-text__content > * {
-  grid-column: span 2;
-}
 
 @media screen and (min-width: 750px) {
+  .image-with-icon-text__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .image-with-icon-text__content > * {
+    grid-column: span 2;
+  }
   .image-with-icon-text__content .icon-with-text {
     grid-column: span 1;
   }
