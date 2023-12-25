@@ -1,3 +1,6 @@
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: unset;
+}
 .swiper-button-prev, 
 .swiper-button-next {
   top: 50%; 
