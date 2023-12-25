@@ -41,7 +41,7 @@ multicolumnMobileSwiper.forEach(swiperEl => {
 
     const slides = swiperEl.querySelectorAll('swiper-slide');
 
-    const desktopCount = swiperEl.getAttribute('data-desktop-column-count');
+    const desktopCount = swiperEl.querySelector(".swiper-wrapper").getAttribute('data-desktop-column-count');
 
     if(slides.length === Number(desktopCount)) {
       return; 
