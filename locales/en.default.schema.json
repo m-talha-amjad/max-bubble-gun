@@ -3333,7 +3333,7 @@
         "subtitle": {
           "label": "Subtitle"
         },
-        "image_width": {
+        "text_alignment": {
           "label": "Image width",
           "options__1": {
             "label": "Left"
