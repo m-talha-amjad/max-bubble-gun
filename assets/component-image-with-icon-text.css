@@ -18,7 +18,8 @@
 /* #region icon with text */
 .icon-with-text {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
+  align-items: center;
 }
 .icon-with-text__icon {
   padding: 1rem;
