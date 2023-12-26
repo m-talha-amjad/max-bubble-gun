@@ -30,3 +30,7 @@
   justify-content: center;
   align-items: center;
 }
+
+.placeholder {
+  width: var(--icon-width)px;
+}
