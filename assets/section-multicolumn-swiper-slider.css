@@ -8,6 +8,12 @@
 .swiper-pagination-bullet {
   width: 1.2rem;
   height: 1.2rem;
+  border: 2px solid #333;
+  background-color: transparent;
+  opacity: 1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #000;
 }
 
 .swiper-button-prev-custom, .swiper-button-next-custom {
