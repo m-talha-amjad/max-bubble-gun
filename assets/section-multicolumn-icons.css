@@ -21,7 +21,9 @@
   } */
 }
 
-
+.multicolumn-icons {
+  --icons-grid-gap: 28px;
+}
 
 
 .multicolumn-icons__list {
@@ -29,8 +31,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: var(--icons-grid-gap);
 }
 
-.placeholder {
-  width: var(--icon-width)px;
+.placeholder svg {
+  width: 70px;
 }
