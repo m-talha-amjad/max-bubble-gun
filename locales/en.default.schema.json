@@ -3702,6 +3702,51 @@
       "presets": {
         "name": "Collapsible Full Width"
       }
+    },
+    "multicolumn_icons": {
+      "name": "Multicolumn Icons",
+      "settings": {
+        "title": {
+          "label": "Heading"
+        },
+        "subtitle": {
+          "label": "Subtitle"
+        },
+        "text_alignment": {
+          "label": "Image width",
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          }
+        },
+        "button_label": {
+          "label": "Button label"
+        },
+        "button_link": {
+          "label": "Button link"
+        }
+      },
+      "blocks": {
+        "icon": {
+          "name": "Icon",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "icon_width": {
+              "label": "Icon Width"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Multicolumn Icons"
+      }
     }
   }
 }
