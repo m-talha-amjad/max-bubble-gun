@@ -614,7 +614,15 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "row_content": "",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut eligendi sint nesciunt culpa?<\/p>",
+            "page": ""
+          }
+        },
+        "1b20042d-e69d-42c1-988c-2a86bc4dbb95": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut eligendi sint nesciunt culpa?<\/p>",
             "page": ""
           }
         },
@@ -645,6 +653,7 @@
       },
       "block_order": [
         "template--20701774938135__efbbd2c5-59f0-4f22-a1b0-a13460e6159d-collapsible_row-1",
+        "1b20042d-e69d-42c1-988c-2a86bc4dbb95",
         "template--20701774938135__efbbd2c5-59f0-4f22-a1b0-a13460e6159d-collapsible_row-2",
         "template--20701774938135__efbbd2c5-59f0-4f22-a1b0-a13460e6159d-collapsible_row-3",
         "template--20701774938135__efbbd2c5-59f0-4f22-a1b0-a13460e6159d-collapsible_row-4"
