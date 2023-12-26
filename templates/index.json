@@ -614,7 +614,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Collapsible row",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut eligendi sint nesciunt culpa?<\/p>",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut eligendi sint nesciunt culpa?<\/p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut eligendi sint nesciunt culpa?<\/p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut eligendi sint nesciunt culpa?<\/p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aut eligendi sint nesciunt culpa?<\/p>",
             "page": ""
           }
         },
