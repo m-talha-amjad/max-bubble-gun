@@ -541,6 +541,7 @@
         "1b5d15bd-f160-49cb-9909-7363ebee79ed",
         "99bf2456-0e9d-44c4-bf05-83b37dbeafc1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Multicolumn",
         "heading_size": "h1",
