@@ -19,9 +19,6 @@ multicolumnDesktopSwiper.forEach(swiperEl => {
       }
     },
     loop: true,
-    hashNavigation: {
-      watchState: true,
-    },
     pagination: {
       el: '.swiper-pagination',
       clickable: true
