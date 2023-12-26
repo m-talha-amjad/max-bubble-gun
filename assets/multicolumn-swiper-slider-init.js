@@ -1,4 +1,5 @@
 // Get all the sliders
+{
 const multicolumnDesktopSwiper = document.querySelectorAll('.multicolumn-swiper-desktop');
 
 multicolumnDesktopSwiper.forEach(swiperEl => {
@@ -59,6 +60,9 @@ multicolumnMobileSwiper.forEach(swiperEl => {
       }
     },
     loop: true,
+    hashNavigation: {
+      watchState: true,
+    },
     pagination: {
       el: '.swiper-pagination',
     },
@@ -69,3 +73,4 @@ multicolumnMobileSwiper.forEach(swiperEl => {
   });
 
 });
+}
