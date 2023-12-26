@@ -663,6 +663,66 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "2c244a4c-c78c-470b-ba5c-b8a20a6eab48": {
+      "type": "multicolumn-icons",
+      "blocks": {
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_width": 48
+          }
+        },
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_width": 48
+          }
+        },
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon_width": 48
+          }
+        },
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-4": {
+          "type": "icon",
+          "settings": {
+            "icon_width": 48
+          }
+        },
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-5": {
+          "type": "icon",
+          "settings": {
+            "icon_width": 48
+          }
+        },
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-6": {
+          "type": "icon",
+          "settings": {
+            "icon_width": 48
+          }
+        }
+      },
+      "block_order": [
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-1",
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-2",
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-3",
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-4",
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-5",
+        "template--20701774938135__2c244a4c-c78c-470b-ba5c-b8a20a6eab48-icon-6"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "subtitle": "",
+        "text_alignment": "left",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -676,6 +736,7 @@
     "655343c8-5861-4b3d-9d1e-fad831f7dc19",
     "744954d0-7a0e-4388-8175-2faf99125eb5",
     "7d25f703-16e7-4c2f-be88-f4b5f54a940a",
-    "efbbd2c5-59f0-4f22-a1b0-a13460e6159d"
+    "efbbd2c5-59f0-4f22-a1b0-a13460e6159d",
+    "2c244a4c-c78c-470b-ba5c-b8a20a6eab48"
   ]
 }
