@@ -520,6 +520,13 @@
 }
 /* #endregion Custom Overrides End*/
 /* #region Custom */
+.footer__grid-view .list-unstyled {
+  display: flex;
+  justify-content: center;
+}
+.footer-block__details-content>li:not(:last-child) {
+  margin-right: 1rem;
+}
 
 .footer__grid-view .footer-block__brand-info {
   text-align: center;
@@ -536,10 +543,7 @@
     max-width: 71rem;
     min-width: 71rem;
   }
-  .footer__grid-view .list-unstyled {
-    display: flex;
-    justify-content: center;
-  }
+
   .footer-block__details-content>:first-child .list-menu__item--link {
     padding-top: 0.5rem;
   }
