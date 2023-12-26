@@ -3689,6 +3689,19 @@
       "presets": {
         "name": "Image with Icons Text"
       }
+    },
+    "collapsible-full-width": {
+      "name": "Collapsible Full Width",
+      "settings": {
+        "animations_reveal_on_scroll": {
+          "label": "Animations Reveal On Scroll"
+        }
+      },
+      "blocks": {
+      },
+      "presets": {
+        "name": "Collapsible Full Width"
+      }
     }
   }
 }
