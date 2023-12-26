@@ -21,12 +21,12 @@ multicolumnDesktopSwiper.forEach(swiperEl => {
     pagination: {
       el: '.swiper-pagination',
       clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next-custom',
-      prevEl: '.swiper-button-prev-custom',
     }
   });
+  swiper.el.parentElement.querySelector(".swiper-button-next-custom").addEventListener('click',
+  () => mySwiper.slideNext());
+  swiper.el.parentElement.querySelector(".swiper-button-prev-custom").addEventListener('click',
+  () => mySwiper.slidePrev());
 
 });
 
