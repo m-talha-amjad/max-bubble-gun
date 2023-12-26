@@ -5,6 +5,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "90e72951-d1f8-4d1f-9622-b23a0ed6c83e": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
         "ed409c50-ce15-45bd-9b3b-58cb18df27d1": {
           "type": "brand_information",
           "settings": {
@@ -13,6 +20,7 @@
         }
       },
       "block_order": [
+        "90e72951-d1f8-4d1f-9622-b23a0ed6c83e",
         "ed409c50-ce15-45bd-9b3b-58cb18df27d1"
       ],
       "settings": {
