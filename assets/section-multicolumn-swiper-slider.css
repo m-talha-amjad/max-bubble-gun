@@ -2,6 +2,13 @@
 .swiper.multicolumn-swiper-desktop {
   padding-bottom: 40px;
 }
+.swiper-pagination {
+  bottom: -5px !important;
+}
+.swiper-pagination-bullet {
+  width: 1.2rem;
+  height: 1.2rem;
+}
 
 .swiper-button-prev-custom, .swiper-button-next-custom {
   position: absolute;
