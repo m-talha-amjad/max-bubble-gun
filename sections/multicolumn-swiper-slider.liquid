@@ -73,6 +73,7 @@
   
             <div
               id="Slide-{{ section.id }}-{{ forloop.index }}"
+              data-hash="Slide-{{ section.id }}-{{ forloop.index }}"
               class="swiper-slide multicolumn-list__item grid__item{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}"
               {{ block.shopify_attributes }}
             >
