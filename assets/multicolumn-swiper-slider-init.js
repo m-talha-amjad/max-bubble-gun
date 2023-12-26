@@ -5,10 +5,6 @@ multicolumnDesktopSwiper.forEach(swiperEl => {
 
   const desktopCount = swiperEl.querySelector(".swiper-wrapper").getAttribute('data-desktop-column-count');
   const mobileCount = swiperEl.querySelector(".swiper-wrapper").getAttribute('data-mobile-column-count');
-  console.log(desktopCount);
-  console.log("desktopCount");
-  console.log(mobileCount);
-  console.log("mobileCount");
 
   const swiper = new Swiper(swiperEl, {    
     slidesPerView: mobileCount,
@@ -51,10 +47,6 @@ multicolumnMobileSwiper.forEach(swiperEl => {
   }
   const desktopCount = swiperEl.querySelector(".swiper-wrapper").getAttribute('data-desktop-column-count');
   const mobileCount = swiperEl.querySelector(".swiper-wrapper").getAttribute('data-mobile-column-count');
-  console.log(desktopCount);
-  console.log("desktopCount");
-  console.log(mobileCount);
-  console.log("mobileCount");
   const swiper = new Swiper(swiperEl, {
     slidesPerView: Number(mobileCount),
     spaceBetween: 10,
