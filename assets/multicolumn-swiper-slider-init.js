@@ -21,7 +21,20 @@ multicolumnDesktopSwiper.forEach(swiperEl => {
     loop: true,
     pagination: {
       el: '.swiper-pagination',
-      clickable: true
+      clickable: true,
+      type: 'custom',
+      renderCustom: function (swiper, current, total) {
+        var out = ''
+        for (i = 1; i < total+1; i++) {
+          if (i == current) {
+            out = out + '<span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex='+i+' role="button" aria-label="Go to slide '+i+1+'"></span>';
+          }
+          else {
+            out = out + '<span class="swiper-pagination-bullet" tabindex='+i+' role="button" aria-label="Go to slide '+i+1+'"></span>';
+          }
+        };
+        return out;
+      },
     }
   });
   swiper.el.parentElement.querySelector(".swiper-button-next-custom").addEventListener('click',
