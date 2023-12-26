@@ -1,4 +1,7 @@
 
+.swiper.multicolumn-swiper-desktop {
+  padding-bottom: 40px;
+}
 
 .swiper-button-prev-custom, .swiper-button-next-custom {
   position: absolute;
@@ -23,3 +26,4 @@
 .swiper-button-next-custom .icon {
   transform: rotate(270deg);
 }
+
