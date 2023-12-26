@@ -34,7 +34,7 @@
   gap: var(--icons-grid-gap);
 }
 
-.placeholder svg {
+.multicolumn-icons__placeholder svg {
   width: 70px;
   height: auto;
 }

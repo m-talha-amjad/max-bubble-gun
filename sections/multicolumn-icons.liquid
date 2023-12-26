@@ -42,7 +42,7 @@
                   {% if block.settings.icon != blank %}
                     <img src="{{ block.settings.icon | image_url: width: icon_width  }}" width="{{ icon_width }}" height="auto" loading="lazy" alt="{{ block.settings.icon.alt }}">
                   {% else %}
-                    <div class="placeholder">
+                    <div class="multicolumn-icons__placeholder">
                       {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
                     </div>
                   {% endif %}
