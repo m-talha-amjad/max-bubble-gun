@@ -1,0 +1,32 @@
+.multicolumn_icons .title {
+  margin: 0;
+}
+
+.multicolumn_icons.no-heading .title {
+  display: none;
+}
+
+.multicolumn_icons .title-wrapper-with-link {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .multicolumn_icons .title-wrapper-with-link {
+    margin-bottom: 3rem;
+  }
+
+  /* .multicolumn_icons .page-width {
+    padding-left: 0;
+    padding-right: 0;
+  } */
+}
+
+
+
+
+.multicolumn-icons__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
