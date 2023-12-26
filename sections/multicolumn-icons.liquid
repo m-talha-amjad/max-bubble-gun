@@ -37,12 +37,12 @@
           {% for block in section.blocks %}
             {% case block.type %}
               {% when 'icon' %}
-                <div class="multicolumn-icons__icon">
+                <div class="multicolumn-icons__icon" style="--icon-width: {{ icon_width }}">
                   {% assign icon_width = block.settings.icon_width %}
                   {% if block.settings.icon != blank %}
                     <img src="{{ block.settings.icon | image_url: width: icon_width  }}" width="{{ icon_width }}" height="auto" loading="lazy" alt="{{ block.settings.icon.alt }}">
                   {% else %}
-                    <div class="placeholder" style="--icon-width: {{ icon_width }}">
+                    <div class="placeholder">
                       {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
                     </div>
                   {% endif %}
