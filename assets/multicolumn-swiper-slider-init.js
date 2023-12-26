@@ -24,9 +24,9 @@ multicolumnDesktopSwiper.forEach(swiperEl => {
     }
   });
   swiper.el.parentElement.querySelector(".swiper-button-next-custom").addEventListener('click',
-  () => mySwiper.slideNext());
+  () => swiper.slideNext());
   swiper.el.parentElement.querySelector(".swiper-button-prev-custom").addEventListener('click',
-  () => mySwiper.slidePrev());
+  () => swiper.slidePrev());
 
 });
 
