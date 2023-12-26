@@ -520,7 +520,16 @@
 }
 /* #endregion Custom Overrides End*/
 /* #region Custom */
+.footer__grid-view {
+  display: grid;
+}
 
+.footer__grid-view .footer-block {
+  justify-self: center;
+  text-align: center;
+  max-width: 71rem;
+  min-width: 71rem;
+}
 /* #endregion Custom End*/
 /* == M Talha Amjad ==End== */
 /* ======================== */
