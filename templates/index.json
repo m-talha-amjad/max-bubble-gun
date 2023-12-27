@@ -197,7 +197,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "inverse",
         "animations_reveal_on_scroll": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
