@@ -216,3 +216,19 @@
     display: list-item;
   }
 }
+
+/* == M Talha Amjad ==Start== */
+/* ========================== */
+/* #region Overrides */
+.multicolumn-list__item--empty {
+  display: list-item;
+}
+/* #endregion Overrides End*/
+/* #region Custom Overrides */
+
+/* #endregion Custom Overrides End*/
+/* #region Custom */
+
+/* #endregion Custom End*/
+/* == M Talha Amjad ==End== */
+/* ======================== */
